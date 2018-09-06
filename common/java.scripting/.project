@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>java.scripting</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/java.scripting</locationURI>
+		</link>
+		<link>
+			<name>src-java.scripting.share.classes</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/src/java.scripting/share/classes</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

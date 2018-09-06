@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="sun/awt/AWTCharset.java" kind="src" path="src-java.desktop.share.classes"/>
+	<classpathentry kind="src" path="src-java.desktop.unix.classes"/>
+	<classpathentry kind="src" path="src-java.desktop.solaris.classes"/>
+	<classpathentry kind="src" path="gensrc-java.desktop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.datatransfer">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.prefs">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.xml">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="output"/>
+</classpath>

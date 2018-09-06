@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdk.internal.vm.compiler.management</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.internal.vm.compiler.management</locationURI>
+		</link>
+		<link>
+			<name>moduleinfo/module-info.java</name>
+			<type>1</type>
+			<locationURI>OPENJDK_SRC/src/jdk.internal.vm.compiler.management/share/classes/module-info.java</locationURI>
+		</link>
+		<link>
+			<name>src-jdk.internal.vm.compiler.management.share.classes</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/src/jdk.internal.vm.compiler.management/share/classes</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
