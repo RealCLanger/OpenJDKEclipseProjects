@@ -32,6 +32,11 @@
 			<locationURI>OPENJDK_SRC/test/jdk/jdk/nio/zipfs</locationURI>
 		</link>
 		<link>
+			<name>src-testlibrary.java.util.jar</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/test/jdk/lib/testlibrary/java/util/jar</locationURI>
+		</link>
+		<link>
 			<name>testng.jar</name>
 			<type>1</type>
 			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
