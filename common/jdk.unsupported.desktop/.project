@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>java.compiler</name>
+	<name>jdk.unsupported.desktop</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/java.compiler</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.unsupported.desktop</locationURI>
 		</link>
 		<link>
-			<name>src-java.compiler.share.classes</name>
+			<name>src-jdk.unsupported.desktop.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.compiler/share/classes</locationURI>
+			<locationURI>OPENJDK_SRC/src/jdk.unsupported.desktop/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
