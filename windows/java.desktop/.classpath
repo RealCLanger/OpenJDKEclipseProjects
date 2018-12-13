@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="com/sun/java/swing/plaf/gtk/|module-info.java" kind="src" path="src-java.desktop.share.classes"/>
+	<classpathentry excluding="com/sun/java/swing/plaf/gtk/**|module-info.java|sun/print/PlatformPrinterJobProxy.java" kind="src" path="src-java.desktop.share.classes"/>
 	<classpathentry kind="src" path="src-java.desktop.windows.classes"/>
 	<classpathentry kind="src" path="gensrc-java.desktop"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.datatransfer">

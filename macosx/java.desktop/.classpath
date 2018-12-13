@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="com/sun/java/swing/plaf/gtk/**" kind="src" path="src-java.desktop.share.classes"/>
+	<classpathentry excluding="com/sun/java/swing/plaf/gtk/**|sun/print/PlatformPrinterJobProxy.java" kind="src" path="src-java.desktop.share.classes"/>
 	<classpathentry excluding="sun/awt/**|sun/font/**|sun/java2d/**" kind="src" path="src-java.desktop.unix.classes"/>
 	<classpathentry kind="src" path="src-java.desktop.macosx.classes"/>
 	<classpathentry kind="src" path="gensrc-java.desktop"/>
