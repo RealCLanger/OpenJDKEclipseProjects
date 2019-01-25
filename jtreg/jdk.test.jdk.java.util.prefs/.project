@@ -25,5 +25,15 @@
 			<type>2</type>
 			<locationURI>OPENJDK_SRC/test/jdk/java/util/prefs</locationURI>
 		</link>
+		<link>
+			<name>src-test.lib</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/test/lib</locationURI>
+		</link>
+		<link>
+			<name>testng.jar</name>
+			<type>1</type>
+			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

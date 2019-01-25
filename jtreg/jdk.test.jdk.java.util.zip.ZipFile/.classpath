@@ -6,7 +6,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.platform=ALL-UNNAMED:java.base/jdk.internal.vm.annotation=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.platform=ALL-UNNAMED:java.base/jdk.internal.vm.annotation=ALL-UNNAMED:java.base/sun.security.util=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jfr">
