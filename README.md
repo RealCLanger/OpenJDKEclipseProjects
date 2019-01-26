@@ -5,7 +5,7 @@ A set of Eclipse Java Projects for OpenJDK development.
 
 The projects link to some folder where the JDK sources are located. The build output is stored in the output folder of the workspace.
 
-First, check out this repository's branch that fits to the JDK version that you develop. "master" currently works for JDK 11 and jdk development branch (JDK 12). "jdk10" is for JDK 10 development. Older JDK repos are (not yet) supported.
+First, check out this repository's branch that fits to the JDK version that you develop. "master" works for the head version of OpenJDK (jdk repo) and jdk12. There's also a branch for JDK 11 development, named "jdk11". Older JDK version repos are not supported.
 
 In Eclipse, use linked resources and set up 2 variables:
 OPENJDK_SRC -> pointing to the file system directory of your JDK sources. For a reference where to find the JDK sources, see section "JDK repositories"
