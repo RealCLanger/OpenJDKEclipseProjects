@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="GZIP/**|InflaterInputStream/**|ZipEntry/**|ZipFile/**|ZipInputStream/**" kind="src" path="src-jtreg.jdk.java.util.zip"/>
+	<classpathentry kind="src" path="src-jtreg.jdk.java.util.prefs"/>
 	<classpathentry kind="src" path="src-test.lib"/>
-	<classpathentry excluding="OutputAnalyzer*|bootlib/**|bytecode/**|java/**" kind="src" path="src-test.jdk.lib"/>
+	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.platform=ALL-UNNAMED:java.base/jdk.internal.module=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.platform=ALL-UNNAMED:java.base/sun.security.util=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/java.desktop">
+	<classpathentry combineaccessrules="false" kind="src" path="/java.prefs">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.desktop/sun.awt=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.management">
@@ -30,15 +29,15 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jartool">
 		<attributes>
 			<attribute name="module" value="true"/>
 			<attribute name="add-exports" value="jdk.jartool/sun.tools.jar=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">
+		<attributes>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jfr">
