@@ -1,46 +1,50 @@
 # OpenJDKEclipseProjects
+
 A set of Eclipse Java Projects for OpenJDK development.
+
+# How are the projects organized
+
+The projects link to some folder where the JDK sources are located (e.g. cloned mercurial or git repository). Eclipse's build output is stored in the output folder of the workspace.
+
+Some JDK modules contain operating system specific implementation parts. For these modules, different projects per OS platform exist and are located in correspondent subdirectories. One example for OS specific implementation parts is the "java.base" module. So you'll need to add the projects suiting to the operating system platform that you are developping for. If you are developping for different OS platforms, you'll need multiple workspaces (one for each OS). You can develop on a different OS platform than the one you are targeting for. E.g. you can develop on a Mac for the Linux JDK.
+
+As certain Java source files are generated during a JDK build, you'll also need a build directory of an OpenJDK or at least the support/gensrc folder of it. If you don't have these build artefacts or they don't match to the JDK repo, you'll see errors in the IDE.
 
 # How to use
 
-The projects link to some folder where the JDK sources are located. The build output is stored in the output folder of the workspace.
+First, make sure you have Eclipse in the latest version. The most convenient way to install Eclipse is the Eclipse installer: https://www.eclipse.org/downloads/packages/installer You should select the Eclipse IDE for Java Developers. You should install the latest released version.
 
-First, check out this repository's branch that fits to the JDK version that you develop. "master" works for the head version of OpenJDK (jdk repo) and jdk12. There's also a branch for JDK 11 development, named "jdk11". Older JDK version repos are not supported.
+Then, check out this repository's branch that fits to the JDK version that you want to develop. The "master" branch works for the head version of OpenJDK (e.g. the "jdk" repo) and jdk12. There's also a branch for JDK 11 development, named "jdk11". Repositories for older OpenJDK versions are not supported.
 
-In Eclipse, use linked resources and set up 2 variables:
-OPENJDK_SRC -> pointing to the file system directory of your JDK sources. For a reference where to find the JDK sources, see section "JDK repositories"
-JDK_BUILD_DIR -> pointing to the build directory for JDK builds (the support/gensrc folder of the build dir is needed because some Java source files are generated during an JDK build). If you don't have these build artefacts or they don't match to the JDK repo, you'll get build errors.
-
-As JDK Java sources contain some platform specific Java classes and/or implementations, you need to add the projects suiting to the Operating System platform that you are developping for. If you are developping for different OS platforms, you'll need multiple workspaces (one for each OS).
+In Eclipse, use linked resources and set up some variables:
+OPENJDK_SRC -> Path of the directory of your JDK sources. For a reference where to find the JDK sources, see section "JDK repositories".
+JDK_BUILD_DIR -> Path of the build directory of your JDK build. This could also be a folder where just the support/gensrc folder of a build directory resides.
+JTREG_PATH -> Path of the jtreg tool used to run OpenJDK jtreg tests. This is only needed, if you plan importing the jtreg test projects.
 
 Now import the required projects via Import -> Existing Projects into Workspace. Import the projects from the following root directories: 
 a) import the projects of the specific os subdirectory, either aix, linux, macosx, solaris, windows
 b) if you are developping on a non-windows platform (aix/linux/macosx/solaris), import the projects from the subdirectory "unix"
 c) import the projects from the subdirectory "common"
 d) if you need aot/graal features, import subdirectory "aotgraal"
+e) if you want to work on jtreg tests, import subdirectory "jtreg"
 
 # Current status
 
-There is a bug which causes the projects not to build (build throws exception very early in java.base). This was fixed with Eclipse bug
-https://bugs.eclipse.org/bugs/show_bug.cgi?id=475996. Unfortunately, the fix has neither made it into release 2018-09 nor in the Java 11 support patch (https://marketplace.eclipse.org/content/java-11-support-eclipse-photon-49). It's fixed in master and will be included in 2018-12.
+After the projects were imported, you'll find a few IDE errors because the Eclipse Java compiler does not agree with the JDK's javac in all points. The observable problems seem to relate to Eclipse bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=530236 which refer to OpenJDK's bug https://bugs.openjdk.java.net/browse/JDK-8016207 and friends.
 
-After this bugfix, there are some issues which seem to relate to bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=530236 which is about a JLS specification issue and probable misbehavior of JDK's javac (https://bugs.openjdk.java.net/browse/JDK-8016207).
+Sometimes, you'll see that java.desktop shows a strange error about a missing class. This can be resolved by cleaning/rebuilding the jdk.datatransfer project.
 
-There are further issues which may or may not occur, still under investigation.
+If you find further issues, please report them either here or directly at the Eclipse bug system.
 
 # JDK repositories
 
-Master repository (JDK 12 dev):
-http://hg.openjdk.java.net/jdk/jdk/
-
-JDK11:
-JDK 11 release version: http://hg.openjdk.java.net/jdk/jdk11/
+OpenJDK:
+Master repository (currently JDK 13 dev): http://hg.openjdk.java.net/jdk/jdk/
+JDK 12 release version: http://hg.openjdk.java.net/jdk/jdk12/
+JDK 12 updates repository: http://hg.openjdk.java.net/jdk-updates/jdk12u/
 JDK 11 updates repository: http://hg.openjdk.java.net/jdk-updates/jdk11u/
 
-JDK10:
-JDK 10 release version: http://hg.openjdk.java.net/jdk/jdk10/
-JDK 10 updates repository: http://hg.openjdk.java.net/jdk-updates/jdk10u/
-
-SapMachine (JDK 12 dev): https://github.com/SAP/SapMachine/tree/sapmachine
+SapMachine:
+SapMachine (currently JDK 13 dev): https://github.com/SAP/SapMachine/tree/sapmachine
+SapMachine 12: https://github.com/SAP/SapMachine/tree/sapmachine12
 SapMachine 11: https://github.com/SAP/SapMachine/tree/sapmachine11
-SapMachine 10: https://github.com/SAP/SapMachine/tree/sapmachine10
