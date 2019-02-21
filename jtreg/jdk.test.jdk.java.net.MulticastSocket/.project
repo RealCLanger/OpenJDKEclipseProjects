@@ -25,15 +25,5 @@
 			<type>2</type>
 			<locationURI>OPENJDK_SRC/test/jdk/java/net/MulticastSocket</locationURI>
 		</link>
-		<link>
-			<name>src-test.jdk.lib</name>
-			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/lib/testlibrary</locationURI>
-		</link>
-		<link>
-			<name>src-test.lib</name>
-			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/lib</locationURI>
-		</link>
 	</linkedResources>
 </projectDescription>
