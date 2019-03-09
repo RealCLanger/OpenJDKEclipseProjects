@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jtreg.test.langtools.tools.javac.processing.model.completionfailure</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jtreg.test.langtools.tools.javac.processing.model.completionfailure</locationURI>
+		</link>
+		<link>
+			<name>src-jtreg.langtools.tools.javac.processing.model.completionfailure</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/test/langtools/tools/javac/processing/model/completionfailure</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

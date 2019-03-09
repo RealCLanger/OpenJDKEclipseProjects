@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src-jtreg.jdk.jdk.security.JavaDotSecurity"/>
+	<classpathentry excluding="src/**" kind="src" path="src-jtreg.jdk.modules.scenarios.overlappingpackages"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
