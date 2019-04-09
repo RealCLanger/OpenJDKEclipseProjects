@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="applications/scimark/**|compiler/aot/scripts/**|compiler/aot/jdk*/**|compiler/arraycopy/ACasLoadsStoresBadMem*|compiler/arraycopy/TestACSameSrcDst*|runtime/Loader*/**|runtime/CommandLine/**|runtime/Final/**|compiler/jsr292/patches/**|compiler/jvmci/common/patches/**|compiler/jvmci/jdk*/**" kind="src" path="src-test.hotspot.jtreg"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.misc=ALL-UNNAMED:java.base/jdk.internal.vm.annotation=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.management">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.compiler">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.internal.vm.ci">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.internal.vm.ci/jdk.vm.ci.code=ALL-UNNAMED:jdk.internal.vm.ci/jdk.vm.ci.code.site=ALL-UNNAMED:jdk.internal.vm.ci/jdk.vm.ci.hotspot=ALL-UNNAMED:jdk.internal.vm.ci/jdk.vm.ci.meta=ALL-UNNAMED:jdk.internal.vm.ci/jdk.vm.ci.runtime=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>

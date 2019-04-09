@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>hotspot-jtreg-main</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/hotspot-jtreg-main</locationURI>
+		</link>
+		<link>
+			<name>src-test.hotspot.jtreg</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/test/hotspot/jtreg</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
