@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="cds/**|connect/**|RedefineNestmateAttr/**|redefine/**|redefineMethod/**|sde/**" kind="src" path="src-jtreg.jdk.com.sun.jdi"/>
+	<classpathentry excluding="cds/**|connect/**|RedefineNestmateAttr/**|redefine/**|redefineMethod/**|sde/**" kind="src" path="src-test.jdk.com.sun.jdi"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>

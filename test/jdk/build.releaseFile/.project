@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jtreg.test.jdk.com.sun.jdi</name>
+	<name>jdk-build.releaseFile</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jtreg.test.jdk.com.sun.jdi</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-build.releaseFile</locationURI>
 		</link>
 		<link>
-			<name>src-jtreg.jdk.com.sun.jdi</name>
+			<name>src-test.jdk.build.releaseFile</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/com/sun/jdi</locationURI>
+			<locationURI>OPENJDK_SRC/test/jdk/build/releaseFile</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
