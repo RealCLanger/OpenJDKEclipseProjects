@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jtreg.test.jdk.java.lang.ThreadGroup</name>
+	<name>jdk-java.net.MulticastSocket</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jtreg.test.jdk.java.lang.ThreadGroup</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.net.MulticastSocket</locationURI>
 		</link>
 		<link>
-			<name>src-jtreg.jdk.java.lang.ThreadGroup</name>
+			<name>src-test.jdk.java.net.MulticastSocket</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/java/lang/ThreadGroup</locationURI>
+			<locationURI>OPENJDK_SRC/test/jdk/java/net/MulticastSocket</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
