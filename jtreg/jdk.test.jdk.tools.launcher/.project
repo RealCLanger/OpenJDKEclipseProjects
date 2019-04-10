@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>hotspot-jtreg-main</name>
+	<name>jtreg.test.jdk.tools.launcher</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,17 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/hotspot-jtreg-main</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jtreg.test.jdk.tools.launcher</locationURI>
 		</link>
 		<link>
-			<name>src-test.hotspot.jtreg</name>
+			<name>src-jtreg.jdk.tools.launcher</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/hotspot/jtreg</locationURI>
-		</link>
-		<link>
-			<name>testng.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+			<locationURI>OPENJDK_SRC/test/jdk/tools/launcher</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
