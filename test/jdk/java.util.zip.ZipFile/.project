@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdk-java.util.zip.ZipFile</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.util.zip.ZipFile</locationURI>
+		</link>
+		<link>
+			<name>src-test.jdk.java.util.zip.ZipFile</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/test/jdk/java/util/zip/ZipFile</locationURI>
+		</link>
+		<link>
+			<name>testng.jar</name>
+			<type>1</type>
+			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
