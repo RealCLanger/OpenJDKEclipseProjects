@@ -21,9 +21,9 @@
 			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-sun.security.lib.cacerts</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.sun.security.lib.cacerts</name>
+			<name>src-jdk.test.sun.security.lib.cacerts</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/sun/security/lib/cacerts</locationURI>
+			<locationURI>OPENJDK_SRC/jdk/test/sun/security/lib/cacerts</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

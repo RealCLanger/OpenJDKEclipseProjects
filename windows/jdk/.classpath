@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/sun/java/swing/plaf/gtk/**|com/sun/jmx/snmp/**|sun/dc/**|sun/management/snmp/**|sun/nio/ch/AbstractPollSelectorImpl.java|sun/nio/ch/PollSelectorProvider.java" kind="src" path="src.jdk.share.classes"/>
+	<classpathentry kind="src" path="src.jdk.share.zipfs"/>
+	<classpathentry excluding="com/sun/java/accessibility/*|com/sun/java/accessibility/legacy/*" kind="src" path="src.jdk.windows.classes"/>
+	<classpathentry excluding="sun/misc/JavaOISAccess.java|sun/misc/ObjectInputFilter.java" kind="src" path="src.corba.share.classes"/>
+	<classpathentry kind="src" path="src.jaxp"/>
+	<classpathentry kind="src" path="src.jaxws.share.jaf_classes"/>
+	<classpathentry kind="src" path="src.jaxws.share.jaxws_classes"/>
+	<classpathentry kind="src" path="src.langtools.share.classes"/>
+	<classpathentry kind="src" path="src.nashorn"/>
+	<classpathentry kind="src" path="gensrc"/>
+	<classpathentry kind="src" path="gensrc_ab.64bit"/>
+	<classpathentry kind="src" path="corba.gensrc"/>
+	<classpathentry kind="src" path="corba.logwrappers"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>

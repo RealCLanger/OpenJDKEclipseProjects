@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src-test.jdk.sun.security.lib.cacerts"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="src" path="src-jdk.test.sun.security.lib.cacerts"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OpenJDK 8"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

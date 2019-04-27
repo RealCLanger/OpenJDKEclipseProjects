@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry excluding="jdk/internal/module/ModuleLoaderMap.java|module-info.java|sun/nio/ch/SimpleAsynchronousFileChannelImpl.java|sun/nio/fs/PollingWatchService.java" kind="src" path="src-java.base.share.classes"/>
-	<classpathentry kind="src" path="src-java.base.windows.classes"/>
-	<classpathentry kind="src" path="gensrc-java.base"/>
-	<classpathentry kind="output" path="output"/>
-</classpath>
