@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="jarfs/**" kind="src" path="src-test.jdk.jdk.nio.zipfs"/>
+	<classpathentry kind="src" path="src-test.jdk.jdk.nio.zipfs.jarfs"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>

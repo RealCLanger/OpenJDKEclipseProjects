@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="spi/**|ScannerStreamTest*" kind="src" path="src-test.jdk.java.util.Scanner"/>
-	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

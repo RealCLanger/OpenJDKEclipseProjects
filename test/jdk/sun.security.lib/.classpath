@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="jarfs/**" kind="src" path="src-test.jdk.jdk.nio.zipfs"/>
+	<classpathentry excluding="cacerts/**" kind="src" path="src-test.jdk.sun.security.lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/sun.security.util=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk-testlibrary.java.util.jar"/>
-	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

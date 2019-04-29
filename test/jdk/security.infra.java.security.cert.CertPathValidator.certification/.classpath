@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="jarfs/**" kind="src" path="src-test.jdk.jdk.nio.zipfs"/>
+	<classpathentry kind="src" path="src-test.jdk.security.infra.java.security.cert.CertPathValidator.certification"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk-testlibrary.java.util.jar"/>
-	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

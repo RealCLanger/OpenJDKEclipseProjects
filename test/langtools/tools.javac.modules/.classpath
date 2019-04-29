@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="Ana*/**|Inv*/**|T81*/**"  kind="src" path="src-test.langtools.tools.javac.modules"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/langtools-tools.lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -24,5 +23,6 @@
 			<attribute name="add-exports" value="jdk.jdeps/com.sun.tools.classfile=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/langtools-tools.lib"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>
