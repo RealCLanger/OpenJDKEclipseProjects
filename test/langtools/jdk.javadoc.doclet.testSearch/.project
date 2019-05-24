@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>langtools-jdk.javadoc.doclet.testSearch</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/langtools-jdk.javadoc.doclet.testSearch</locationURI>
+		</link>
+		<link>
+			<name>src-test.langtools.jdk.javadoc.doclet.testSearch</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/test/langtools/jdk/javadoc/doclet/testSearch</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
