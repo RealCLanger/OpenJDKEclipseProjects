@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src-jdk.test.security.infra.java.security.cert.CertPathValidator.certification"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OpenJDK 8"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
