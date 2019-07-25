@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src-test.langtools.tools.javac.lib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.compiler">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.compiler">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="output"/>
+</classpath>

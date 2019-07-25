@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>langtools-tools.javac.lib</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/langtools-tools.javac.lib</locationURI>
+		</link>
+		<link>
+			<name>src-test.langtools.tools.javac.lib</name>
+			<type>2</type>
+			<locationURI>OPENJDK_SRC/test/langtools/tools/javac/lib</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

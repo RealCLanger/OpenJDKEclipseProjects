@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="MultiReleaseJar/**|zip/**" kind="src" path="src-test.langtools.tools.javac.file"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jdeps">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.jdeps/com.sun.tools.classfile=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.compiler">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.compiler">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/langtools-tools.lib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/langtools-tools.javac.lib"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
