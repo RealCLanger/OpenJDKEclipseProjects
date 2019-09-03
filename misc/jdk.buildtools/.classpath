@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src-make.jdk.src.classes"/>
 	<classpathentry kind="src" path="buildtools-interim_cldrconverter_classes"/>
+	<classpathentry kind="src" path="buildtools-interim_tzdb_classes"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
