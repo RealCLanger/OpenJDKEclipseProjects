@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="applications/scimark/**|compiler/aot/jdk.tools.jaotc.test/**|compiler/aot/scripts/**|compiler/arraycopy/ACasLoadsStoresBadMem*|compiler/arraycopy/TestACSameSrcDst*|compiler/arraycopy/TestArrayCopyUNCBadMem*|compiler/arraycopy/TestEliminatedCloneBadMemEdge*|compiler/arraycopy/TestInitializingACLoadWithBadMem*|compiler/arraycopy/TestLoadBypassACWithWrongMem*|compiler/c1/TestArrayCopyToFromObject*|compiler/c1/TestGotoIfMain*|compiler/c1/TestLinearScanOrder*|compiler/c1/TestUnresolvedFieldMain*|compiler/c1/UnsafeVolatileGuardTest*|compiler/c1/VolatileGuardTest*|compiler/c2/Test6852078*|compiler/c2/SubsumingLoadsCauseFlagSpill*|compiler/c2/TestReplacedNodesOSR*|compiler/dependencies/MonomorphicObjectCall/**|compiler/exceptions/TestC1ExceptionHandlersSameBCI*|compiler/floatingpoint/TestFMA*|compiler/graalunit/com.oracle.mxtool.junit/**|compiler/intrinsics/string/TestHasNegatives.java|compiler/intrinsics/string/TestStringUTF16IntrinsicRangeChecks.java|compiler/intrinsics/string/TestStringIntrinsicRangeChecks.java|compiler/jvmci/**|compiler/jsr292/**|compiler/patches/**|compiler/unsafe/UnsafeGetConstantField*|gc/**|gtest/**|native_sanity/**|runtime/**|sanity/**|serviceability/**|testlibrary*/**|vmTestBase/**" including="applications/**|compiler/**" kind="src" path="src-test.hotspot.jtreg"/>
+	<classpathentry kind="src" path="src-test.hotspot.jtreg/containers/docker"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -33,6 +34,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.attach">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jfr">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
