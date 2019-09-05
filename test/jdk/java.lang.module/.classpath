@@ -5,7 +5,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.module=ALL-UNNAMED:java.base/jdk.internal.access=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.module=ALL-UNNAMED:java.base/jdk.internal.misc=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-test.lib"/>
