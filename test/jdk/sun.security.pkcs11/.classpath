@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="Cipher/**|Config/**|ec/**|Key*/**|M*/**|Provider/**|rsa/**|S*/**|sslecc/**|tls/**" kind="src" path="src-test.jdk.sun.security.pkcs11"/>
+	<classpathentry kind="src" path="src-test.jdk.sun.security.pkcs11/Cipher"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
