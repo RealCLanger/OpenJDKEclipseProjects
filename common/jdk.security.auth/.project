@@ -23,7 +23,7 @@
 		<link>
 			<name>src-jdk.security.auth.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.security.auth/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.security.auth/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

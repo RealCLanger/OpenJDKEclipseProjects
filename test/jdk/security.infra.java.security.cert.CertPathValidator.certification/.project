@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.security.infra.java.security.cert.CertPathValidator.certification</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/security/infra/java/security/cert/CertPathValidator/certification</locationURI>
+			<locationURI>JDK_SRC/test/jdk/security/infra/java/security/cert/CertPathValidator/certification</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

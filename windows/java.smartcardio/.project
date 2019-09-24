@@ -23,12 +23,12 @@
 		<link>
 			<name>src-java.smartcardio.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.smartcardio/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.smartcardio/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.smartcardio.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.smartcardio/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.smartcardio/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

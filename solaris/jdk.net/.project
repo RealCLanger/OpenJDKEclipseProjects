@@ -23,12 +23,12 @@
 		<link>
 			<name>src-jdk.net.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.net/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.net/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-jdk.net.solaris.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.net/solaris/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.net/solaris/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

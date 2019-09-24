@@ -28,12 +28,12 @@
 		<link>
 			<name>src-jdk.jdi.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.jdi/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jdi/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-jdk.jdi.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.jdi/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jdi/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

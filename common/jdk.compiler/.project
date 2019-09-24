@@ -28,7 +28,7 @@
 		<link>
 			<name>src-jdk.compiler.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.compiler/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.compiler/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

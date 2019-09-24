@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.sun.security.lib</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/sun/security/lib</locationURI>
+			<locationURI>JDK_SRC/test/jdk/sun/security/lib</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

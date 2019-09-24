@@ -33,7 +33,7 @@
 		<link>
 			<name>src-make.jdk.src.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/make/jdk/src/classes</locationURI>
+			<locationURI>JDK_SRC/make/jdk/src/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

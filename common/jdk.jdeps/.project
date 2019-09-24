@@ -28,7 +28,7 @@
 		<link>
 			<name>src-jdk.jdeps.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.jdeps/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jdeps/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

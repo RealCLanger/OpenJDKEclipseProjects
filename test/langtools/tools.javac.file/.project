@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.langtools.tools.javac.file</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/langtools/tools/javac/file</locationURI>
+			<locationURI>JDK_SRC/test/langtools/tools/javac/file</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

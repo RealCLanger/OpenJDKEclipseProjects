@@ -28,12 +28,12 @@
 		<link>
 			<name>src-jdk.jlink.linux.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.jlink/linux/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jlink/linux/classes</locationURI>
 		</link>
 		<link>
 			<name>src-jdk.jlink.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.jlink/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jlink/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -28,7 +28,7 @@
 		<link>
 			<name>src-java.logging.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.logging/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.logging/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

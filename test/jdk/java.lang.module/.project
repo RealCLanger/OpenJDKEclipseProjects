@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.java.lang.module</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/java/lang/module</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/lang/module</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>

@@ -23,12 +23,12 @@
 		<link>
 			<name>src-java.security.jgss.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.security.jgss/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.security.jgss/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.security.jgss.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.security.jgss/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.security.jgss/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

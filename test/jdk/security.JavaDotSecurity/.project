@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.jdk.security.JavaDotSecurity</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/jdk/security/JavaDotSecurity</locationURI>
+			<locationURI>JDK_SRC/test/jdk/jdk/security/JavaDotSecurity</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

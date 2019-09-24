@@ -23,7 +23,7 @@
 		<link>
 			<name>src-jdk.jdwp.agent.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.jdwp.agent/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jdwp.agent/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -28,12 +28,12 @@
 		<link>
 			<name>src-java.base.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.base/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.base/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.base.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.base/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.base/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

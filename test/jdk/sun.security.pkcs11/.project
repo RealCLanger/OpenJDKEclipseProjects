@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.sun.security.pkcs11</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/sun/security/pkcs11</locationURI>
+			<locationURI>JDK_SRC/test/jdk/sun/security/pkcs11</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

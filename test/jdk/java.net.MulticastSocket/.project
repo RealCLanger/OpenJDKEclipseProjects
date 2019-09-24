@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.java.net.MulticastSocket</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/java/net/MulticastSocket</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/net/MulticastSocket</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

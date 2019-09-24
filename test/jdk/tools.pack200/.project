@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.tools.pack200</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/tools/pack200</locationURI>
+			<locationURI>JDK_SRC/test/jdk/tools/pack200</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>

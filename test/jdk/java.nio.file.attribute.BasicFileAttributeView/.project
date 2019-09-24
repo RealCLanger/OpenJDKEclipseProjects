@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.java.nio.file.attribute.BasicFileAttributeView</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/java/nio/file/attribute/BasicFileAttributeView</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/nio/file/attribute/BasicFileAttributeView</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

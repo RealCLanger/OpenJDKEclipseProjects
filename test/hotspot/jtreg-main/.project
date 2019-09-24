@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.hotspot.jtreg</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/hotspot/jtreg</locationURI>
+			<locationURI>JDK_SRC/test/hotspot/jtreg</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>

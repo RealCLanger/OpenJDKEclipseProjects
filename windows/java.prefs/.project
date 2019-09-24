@@ -23,12 +23,12 @@
 		<link>
 			<name>src-java.prefs.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.prefs/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.prefs/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.prefs.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.prefs/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.prefs/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.sun.security.tools.keytool</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/sun/security/tools/keytool</locationURI>
+			<locationURI>JDK_SRC/test/jdk/sun/security/tools/keytool</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

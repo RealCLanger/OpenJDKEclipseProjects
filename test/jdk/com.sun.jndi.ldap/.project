@@ -23,12 +23,12 @@
 		<link>
 			<name>src-test.jdk.com.sun.jndi.ldap</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/com/sun/jndi/ldap</locationURI>
+			<locationURI>JDK_SRC/test/jdk/com/sun/jndi/ldap</locationURI>
 		</link>
 		<link>
 			<name>src-test.jdk.com.sun.jndi.ldap.lib</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/com/sun/jndi/ldap/lib</locationURI>
+			<locationURI>JDK_SRC/test/jdk/com/sun/jndi/ldap/lib</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>

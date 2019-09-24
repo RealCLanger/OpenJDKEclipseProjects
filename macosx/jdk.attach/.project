@@ -23,12 +23,12 @@
 		<link>
 			<name>src-jdk.attach.macosx.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.attach/macosx/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.attach/macosx/classes</locationURI>
 		</link>
 		<link>
 			<name>src-jdk.attach.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.attach/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.attach/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

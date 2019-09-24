@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.com.sun.jdi</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/com/sun/jdi</locationURI>
+			<locationURI>JDK_SRC/test/jdk/com/sun/jdi</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

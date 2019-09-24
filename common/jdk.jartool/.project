@@ -28,7 +28,7 @@
 		<link>
 			<name>src-jdk.jartool.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.jartool/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jartool/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -28,12 +28,12 @@
 		<link>
 			<name>src-jdk.accessibility.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.accessibility/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.accessibility/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-jdk.accessibility.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.accessibility/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.accessibility/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

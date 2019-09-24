@@ -28,17 +28,17 @@
 		<link>
 			<name>src-java.desktop.macosx.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.desktop/macosx/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.desktop/macosx/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.desktop.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.desktop/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.desktop/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.desktop.unix.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.desktop/unix/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.desktop/unix/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
