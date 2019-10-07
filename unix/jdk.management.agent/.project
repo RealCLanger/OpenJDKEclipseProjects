@@ -28,12 +28,12 @@
 		<link>
 			<name>src-jdk.management.agent.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.management.agent/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.management.agent/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-jdk.management.agent.unix.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.management.agent/unix/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.management.agent/unix/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

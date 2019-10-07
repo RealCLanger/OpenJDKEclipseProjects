@@ -23,12 +23,12 @@
 		<link>
 			<name>src-jdk.management.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.management/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.management/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-jdk.management.unix.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.management/unix/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.management/unix/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

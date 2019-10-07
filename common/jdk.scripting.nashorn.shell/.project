@@ -23,7 +23,7 @@
 		<link>
 			<name>src-jdk.scripting.nashorn.shell.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.scripting.nashorn.shell/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.scripting.nashorn.shell/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

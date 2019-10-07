@@ -23,12 +23,12 @@
 		<link>
 			<name>src-java.datatransfer.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.datatransfer/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.datatransfer/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.datatransfer.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.datatransfer/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.datatransfer/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

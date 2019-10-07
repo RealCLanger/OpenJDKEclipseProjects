@@ -23,7 +23,7 @@
 		<link>
 			<name>src-jdk.crypto.mscapi.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.crypto.mscapi/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.crypto.mscapi/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

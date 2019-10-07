@@ -23,7 +23,7 @@
 		<link>
 			<name>src-java.transaction.xa.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.transaction.xa/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.transaction.xa/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

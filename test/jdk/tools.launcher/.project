@@ -23,7 +23,7 @@
 		<link>
 			<name>src-jtreg.jdk.tools.launcher</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/tools/launcher</locationURI>
+			<locationURI>JDK_SRC/test/jdk/tools/launcher</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

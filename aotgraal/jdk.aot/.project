@@ -23,12 +23,12 @@
 		<link>
 			<name>src-jdk.aot.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/jdk.aot/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.aot/share/classes</locationURI>
 		</link>
 		<link>
 			<name>moduleinfo/module-info.java</name>
 			<type>1</type>
-			<locationURI>OPENJDK_SRC/src/jdk.aot/share/classes/module-info.java</locationURI>
+			<locationURI>JDK_SRC/src/jdk.aot/share/classes/module-info.java</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

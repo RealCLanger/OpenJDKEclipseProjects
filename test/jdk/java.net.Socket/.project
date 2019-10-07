@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.java.net.Socket</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/java/net/Socket</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/net/Socket</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

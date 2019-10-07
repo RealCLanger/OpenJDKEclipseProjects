@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.jdk.nio.zipfs.jarfs</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/jdk/nio/zipfs/jarfs</locationURI>
+			<locationURI>JDK_SRC/test/jdk/jdk/nio/zipfs/jarfs</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>

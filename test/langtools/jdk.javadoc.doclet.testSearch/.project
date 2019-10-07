@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.langtools.jdk.javadoc.doclet.testSearch</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/langtools/jdk/javadoc/doclet/testSearch</locationURI>
+			<locationURI>JDK_SRC/test/langtools/jdk/javadoc/doclet/testSearch</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

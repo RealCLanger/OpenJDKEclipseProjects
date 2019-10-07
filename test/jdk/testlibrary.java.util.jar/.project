@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.lib.testlibrary.java.util.jar</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/lib/testlibrary/java/util/jar</locationURI>
+			<locationURI>JDK_SRC/test/jdk/lib/testlibrary/java/util/jar</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

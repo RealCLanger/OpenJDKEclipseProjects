@@ -23,7 +23,7 @@
 		<link>
 			<name>src-java.sql.rowset.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.sql.rowset/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.sql.rowset/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

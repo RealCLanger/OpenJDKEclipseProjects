@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.langtools.tools.javac.processing.model.completionfailure</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/langtools/tools/javac/processing/model/completionfailure</locationURI>
+			<locationURI>JDK_SRC/test/langtools/tools/javac/processing/model/completionfailure</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

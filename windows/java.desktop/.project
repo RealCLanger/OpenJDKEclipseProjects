@@ -28,12 +28,12 @@
 		<link>
 			<name>src-java.desktop.share.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.desktop/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.desktop/share/classes</locationURI>
 		</link>
 		<link>
 			<name>src-java.desktop.windows.classes</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/src/java.desktop/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/java.desktop/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -23,7 +23,7 @@
 		<link>
 			<name>src-test.jdk.java.util.zip.ZipEntry</name>
 			<type>2</type>
-			<locationURI>OPENJDK_SRC/test/jdk/java/util/zip/ZipEntry</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/util/zip/ZipEntry</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
