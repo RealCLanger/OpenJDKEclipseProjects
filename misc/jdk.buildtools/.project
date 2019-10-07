@@ -21,6 +21,11 @@
 			<locationURI>JDK_BUILD_DIR/buildtools/interim_cldrconverter_classes</locationURI>
 		</link>
 		<link>
+			<name>buildtools-interim_tzdb_classes</name>
+			<type>2</type>
+			<locationURI>JDK_BUILD_DIR/buildtools/interim_tzdb_classes</locationURI>
+		</link>
+		<link>
 			<name>output</name>
 			<type>2</type>
 			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.buildtools</locationURI>
