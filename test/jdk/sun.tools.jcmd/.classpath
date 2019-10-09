@@ -10,7 +10,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jcmd">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.jcmd/sun.tools.common=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-test.lib"/>
