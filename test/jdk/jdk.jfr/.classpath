@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="java/**|jdk/jfr/*|jdk/jfr/api/modules/src_mods/**" including="jdk/jfr/**" kind="src" path="src-test.jdk"/>
+	<classpathentry excluding="java/**|jdk/jfr/*|jdk/jfr/api/modules/src_mods/**|jdk/jfr/javaagent/JavaAgentBuilder.java|jdk/jfr/javaagent/TestLoadedAgent.java" including="jdk/jfr/**" kind="src" path="src-test.jdk"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
