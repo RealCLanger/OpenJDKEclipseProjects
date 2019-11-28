@@ -25,5 +25,6 @@
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/langtools-tools.lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/langtools-tools.javac.lib"/>
+	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

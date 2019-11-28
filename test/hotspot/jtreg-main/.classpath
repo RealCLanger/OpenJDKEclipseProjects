@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="src-test.hotspot.jtreg/containers/docker"/>
 	<classpathentry kind="src" path="src-test.hotspot.jtreg/runtime/exceptionMsgs/NullPointerException"/>
 	<classpathentry excluding="test-classes/**" kind="src" path="src-test.hotspot.jtreg/runtime/LoadClass"/>
+	<classpathentry excluding="ClhsdbJhisto.java|LingeredAppWithInterface.java|TestInstanceKlassSizeForInterface.java|jmap-hprof/**|sadebugd/**" kind="src" path="src-test.hotspot.jtreg/serviceability/sa"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -49,6 +50,12 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jfr">
 		<attributes>
 			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.hotspot.agent">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.hotspot.agent/sun.jvm.hotspot=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.debugger=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.gc.g1=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.memory=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.oops=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.ui.classbrowser=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.utilities=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">

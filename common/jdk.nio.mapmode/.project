@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>langtools-tools.javac.file</name>
+	<name>jdk.nio.mapmode</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,17 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/langtools-tools.javac.file</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.nio.mapmode</locationURI>
 		</link>
 		<link>
-			<name>src-test.langtools.tools.javac.file</name>
+			<name>src-jdk.nio.mapmode.share.classes</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/langtools/tools/javac/file</locationURI>
-		</link>
-		<link>
-			<name>testng.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+			<locationURI>JDK_SRC/src/jdk.nio.mapmode/share/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

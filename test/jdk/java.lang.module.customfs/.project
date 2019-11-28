@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>langtools-tools.javac.file</name>
+	<name>jdk-java.lang.module.customfs</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/langtools-tools.javac.file</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.lang.module.customfs</locationURI>
 		</link>
 		<link>
-			<name>src-test.langtools.tools.javac.file</name>
+			<name>src-test.jdk.java.lang.module.customfs</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/langtools/tools/javac/file</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/lang/module/customfs</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>
