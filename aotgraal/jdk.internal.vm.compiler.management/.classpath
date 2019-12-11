@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="moduleinfo"/>
 	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.management.share.classes/org.graalvm.compiler.hotspot.management/src"/>
+	<classpathentry kind="src" path="gensrc-jdk.internal.vm.compiler.management"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
