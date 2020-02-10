@@ -36,6 +36,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.openjdk.skara.version">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/org.openjdk.skara.proxy">
 		<attributes>
 			<attribute name="module" value="true"/>
