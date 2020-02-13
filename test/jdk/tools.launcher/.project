@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jtreg.test.jdk.tools.launcher</name>
+	<name>jdk-tools.launcher</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,10 +18,10 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jtreg.test.jdk.tools.launcher</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-tools.launcher</locationURI>
 		</link>
 		<link>
-			<name>src-jtreg.jdk.tools.launcher</name>
+			<name>src-test.jdk.tools.launcher</name>
 			<type>2</type>
 			<locationURI>JDK_SRC/test/jdk/tools/launcher</locationURI>
 		</link>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="6842838/**|mockfx/**|modules/**|UglyPrintVersion.java" kind="src" path="src-jtreg.jdk.tools.launcher"/>
+	<classpathentry excluding="6842838/**|mockfx/**|modules/**|UglyPrintVersion.java" kind="src" path="src-test.jdk.tools.launcher"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
