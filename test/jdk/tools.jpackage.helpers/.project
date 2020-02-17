@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-jdk.buildtools</name>
+	<name>jdk-tools.jpackage.helpers</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,19 +16,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>buildtools-interim_tzdb_classes</name>
-			<type>2</type>
-			<locationURI>JDK_BUILD_DIR/buildtools/interim_tzdb_classes</locationURI>
-		</link>
-		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.buildtools</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-tools.jpackage.helpers</locationURI>
 		</link>
 		<link>
-			<name>src-make.jdk.src.classes</name>
+			<name>src-test.jdk.tools.jpackage.helpers</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/make/jdk/src/classes</locationURI>
+			<locationURI>JDK_SRC/test/jdk/tools/jpackage/helpers</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
