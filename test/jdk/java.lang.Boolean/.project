@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-jdk.nio.zipfs</name>
+	<name>jdk-java.lang.Boolean</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,22 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-jdk.nio.zipfs</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.lang.Boolean</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.jdk.nio.zipfs</name>
+			<name>src-test.jdk.java.lang.Boolean</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/jdk/nio/zipfs</locationURI>
-		</link>
-		<link>
-			<name>src-test.jdk.jdk.nio.zipfs.testng</name>
-			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/jdk/nio/zipfs/testng</locationURI>
-		</link>
-		<link>
-			<name>testng.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/lang/Boolean</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
