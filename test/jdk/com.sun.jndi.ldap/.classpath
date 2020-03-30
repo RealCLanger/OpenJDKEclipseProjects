@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="blits/AddTests/**|LdapName/**|lib/**" kind="src" path="src-test.jdk.com.sun.jndi.ldap"/>
+	<classpathentry excluding="blits/AddTests/**|LdapCtx/**|LdapName/**|lib/**" kind="src" path="src-test.jdk.com.sun.jndi.ldap"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
