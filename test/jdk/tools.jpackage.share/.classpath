@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="6842838/**|mockfx/**|modules/**|UglyPrintVersion.java" kind="src" path="src-test.jdk.tools.jpackage.share"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.incubator.jpackage">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.incubator.jpackage/jdk.incubator.jpackage.internal=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-tools.jpackage.helpers"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
