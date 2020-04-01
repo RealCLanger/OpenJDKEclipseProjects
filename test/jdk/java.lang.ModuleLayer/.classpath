@@ -8,7 +8,7 @@
 			<attribute name="add-exports" value="java.base/jdk.internal.access=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk-test.lib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-lib.testlibrary"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>
