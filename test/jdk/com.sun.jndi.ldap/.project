@@ -25,5 +25,10 @@
 			<type>2</type>
 			<locationURI>JDK_SRC/test/jdk/com/sun/jndi/ldap</locationURI>
 		</link>
+		<link>
+			<name>src-test.jdk.com.sun.jndi.ldap.lib</name>
+			<type>2</type>
+			<locationURI>JDK_SRC/test/jdk/com/sun/jndi/ldap/lib</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
