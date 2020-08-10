@@ -30,5 +30,10 @@
 			<type>2</type>
 			<locationURI>JDK_SRC/test/jdk/com/sun/jndi/ldap/lib</locationURI>
 		</link>
+		<link>
+			<name>testng.jar</name>
+			<type>1</type>
+			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

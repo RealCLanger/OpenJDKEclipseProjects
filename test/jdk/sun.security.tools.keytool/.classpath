@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="pss/*" kind="src" path="src-test.jdk.sun.security.tools.keytool"/>
+	<classpathentry excluding="fakegen/**" kind="src" path="src-test.jdk.sun.security.tools.keytool"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
