@@ -5,12 +5,23 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/sun.net=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.naming">
 		<attributes>
 			<attribute name="module" value="true"/>
 			<attribute name="add-exports" value="java.naming/com.sun.jndi.ldap=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.security.jgss">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.security.sasl">
+		<attributes>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>

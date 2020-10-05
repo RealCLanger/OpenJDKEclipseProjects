@@ -8,11 +8,9 @@
 	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.hotspot/src"/>
 	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.hotspot.aarch64/src"/>
 	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.hotspot.amd64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.hotspot.sparc/src"/>
 	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.meta/src"/>
 	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.runtime/src"/>
 	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.services/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.ci.share.classes/jdk.vm.ci.sparc/src"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.logging">
 		<attributes>
 			<attribute name="module" value="true"/>

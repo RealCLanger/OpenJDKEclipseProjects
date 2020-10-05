@@ -49,11 +49,7 @@ module jdk.internal.vm.ci {
         jdk.aot;
     exports jdk.vm.ci.hotspot.amd64 to jdk.internal.vm.compiler,
         jdk.aot;
-    exports jdk.vm.ci.hotspot.sparc to jdk.internal.vm.compiler,
-        jdk.aot;
     exports jdk.vm.ci.meta to jdk.internal.vm.compiler,
-        jdk.aot;
-    exports jdk.vm.ci.sparc to jdk.internal.vm.compiler,
         jdk.aot;
 
     uses jdk.vm.ci.services.JVMCIServiceLocator;
@@ -61,6 +57,5 @@ module jdk.internal.vm.ci {
 
     provides jdk.vm.ci.hotspot.HotSpotJVMCIBackendFactory with
         jdk.vm.ci.hotspot.aarch64.AArch64HotSpotJVMCIBackendFactory,
-        jdk.vm.ci.hotspot.amd64.AMD64HotSpotJVMCIBackendFactory,
-        jdk.vm.ci.hotspot.sparc.SPARCHotSpotJVMCIBackendFactory;
+        jdk.vm.ci.hotspot.amd64.AMD64HotSpotJVMCIBackendFactory;
 }

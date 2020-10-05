@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="bcp47u*/**" kind="src" path="src-test.jdk.java.util.Locale"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/sun.util.locale.provider=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.management">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -11,10 +17,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+	<classpathentry combineaccessrules="false" kind="src" path="/java.logging">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/sun.util.locale.provider=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-java.text.testlib"/>

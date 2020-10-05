@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="fakegen/**" kind="src" path="src-test.jdk.sun.security.tools.keytool"/>
+	<classpathentry excluding="fakegen/**|fakecacerts/**" kind="src" path="src-test.jdk.sun.security.tools.keytool"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.desktop">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -9,7 +9,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/sun.security.util=ALL-UNNAMED:java.base/sun.security.x509=ALL-UNNAMED:java.base/sun.security.tools.keytool=ALL-UNNAMED:java.base/sun.security.tools=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.misc=ALL-UNNAMED:java.base/sun.security.util=ALL-UNNAMED:java.base/sun.security.x509=ALL-UNNAMED:java.base/sun.security.tools.keytool=ALL-UNNAMED:java.base/sun.security.tools=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
