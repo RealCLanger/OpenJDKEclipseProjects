@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk.incubator.jpackage</name>
+	<name>jdk.jpackage</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,24 +16,24 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>gensrc-jdk.incubator.jpackage</name>
+			<name>gensrc-jdk.jpackage</name>
 			<type>2</type>
-			<locationURI>JDK_BUILD_DIR/support/gensrc/jdk.incubator.jpackage</locationURI>
+			<locationURI>JDK_BUILD_DIR/support/gensrc/jdk.jpackage</locationURI>
 		</link>
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.incubator.jpackage</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.jpackage</locationURI>
 		</link>
 		<link>
-			<name>src-jdk.incubator.jpackage.share.classes</name>
+			<name>src-jdk.jpackage.share.classes</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/src/jdk.incubator.jpackage/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jpackage/share/classes</locationURI>
 		</link>
 		<link>
-			<name>src-jdk.incubator.jpackage.windows.classes</name>
+			<name>src-jdk.jpackage.windows.classes</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/src/jdk.incubator.jpackage/windows/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.jpackage/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

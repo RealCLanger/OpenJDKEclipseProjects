@@ -28,6 +28,7 @@
 			<attribute name="add-exports" value="jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED:jdk.jdi/com.sun.tools.example.debug.tty=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/hotspot-jtreg-main"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

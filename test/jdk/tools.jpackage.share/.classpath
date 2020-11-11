@@ -6,15 +6,20 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.desktop">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.xml">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk.incubator.jpackage">
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jpackage">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.incubator.jpackage/jdk.incubator.jpackage.internal=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="jdk.jpackage/jdk.jpackage.internal=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-tools.jpackage.helpers"/>
