@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-sun.security.tools.keytool</name>
+	<name>jdk-sun.security.tools.jarsigner</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-sun.security.tools.keytool</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-sun.security.tools.jarsigner</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.sun.security.tools.keytool</name>
+			<name>src-test.jdk.sun.security.tools.jarsigner</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/sun/security/tools/keytool</locationURI>
+			<locationURI>JDK_SRC/test/jdk/sun/security/tools/jarsigner</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>
