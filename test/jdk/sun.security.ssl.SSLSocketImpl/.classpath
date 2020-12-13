@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src-test.jdk.javax.net.ssl.sanity.ciphersuites"/>
+	<classpathentry excluding="NotifyHandshake*" kind="src" path="src-test.jdk.sun.security.ssl.SSLSocketImpl"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
