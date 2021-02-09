@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="4530474/**|ColorValue/**" kind="src" path="src-test.jdk.javax.swing.text.html.CSS"/>
+	<classpathentry excluding="4530474/**|4765271/**|8231286/**|ColorValue/**" kind="src" path="src-test.jdk.javax.swing.text.html.CSS"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
