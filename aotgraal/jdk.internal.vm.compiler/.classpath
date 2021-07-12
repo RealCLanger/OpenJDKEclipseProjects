@@ -1,77 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/jdk.internal.vm.compiler.collections/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/jdk.internal.vm.compiler.word/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.api.directives/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.api.replacements/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.api.runtime/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.asm/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.asm.aarch64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.asm.amd64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.bytecode/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.code/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.core/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.core.aarch64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.core.amd64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.core.common/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.debug/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.graph/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.hotspot/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.hotspot.aarch64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.hotspot.amd64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.java/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.lir/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.lir.aarch64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.lir.amd64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.loop/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.loop.phases/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.nodeinfo/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.nodes/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.options/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.phases/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.phases.common/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.printer/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.replacements/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.replacements.aarch64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.replacements.amd64/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.runtime/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.serviceprovider/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.virtual/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.compiler.word/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.graphio/src"/>
-	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes/org.graalvm.util/src"/>
-	<classpathentry kind="src" path="gensrc-jdk.internal.vm.compiler"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk.unsupported">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk.internal.vm.ci">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/java.management">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/java.instrument">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="src" path="src-jdk.internal.vm.compiler.share.classes"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/java.compiler">
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.internal.vm.ci">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>

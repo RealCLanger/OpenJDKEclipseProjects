@@ -16,11 +16,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>gensrc-jdk.internal.vm.compiler</name>
-			<type>2</type>
-			<locationURI>JDK_BUILD_DIR/support/gensrc/jdk.internal.vm.compiler</locationURI>
-		</link>
-		<link>
 			<name>output</name>
 			<type>2</type>
 			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.internal.vm.compiler</locationURI>
