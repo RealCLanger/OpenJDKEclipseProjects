@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-javax.net.ssl.templates"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>
