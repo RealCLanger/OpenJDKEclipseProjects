@@ -26,6 +26,7 @@
 	|compiler/c2/TestReplacedNodesOSR*|
 	|compiler/ciReplay/TestUnresolvedClasses.java|
 	|compiler/conversions/**|
+	|compiler/codecache/CodeCacheFullCountTest.java|
 	|compiler/dependencies/MonomorphicObjectCall/**|
 	|compiler/eliminateAutobox/TestIdentityWithEliminateBoxInDebugInfo.java|
 	|compiler/escapeAnalysis/TestCopyOfBrokenAntiDependency.java|
@@ -63,6 +64,7 @@
 	|compiler/loopopts/TestBrokenAntiDependenceWithPhi.java|
 	|compiler/loopopts/TestCastFFAtPhi.java|
 	|compiler/loopopts/TestDeadCountedLoop.java|
+	|compiler/loopopts/TestDeadPostLoopBecausePredicate.java|
 	|compiler/loopopts/TestIdomAfterLoopUnswitching.java|
 	|compiler/loopopts/TestIfReplacedByMainLoopExit.java|
 	|compiler/loopopts/TestInfiniteLoopCCP.java|
@@ -134,7 +136,21 @@
 	|compiler/vectorization/TestVectorsNotSavedAtSafepoint.java"
 	including="applications/**|compiler/**|gc/testlibrary/**" kind="src" path="src-test.hotspot.jtreg"/>
 	<classpathentry kind="src" path="src-test.hotspot.jtreg/containers/docker"/>
-	<classpathentry excluding="cacheObject/**|condy/**|customLoader/**|dynamicArchive/**|javaldr/**|jcmd/**|jigsaw/**|jvmti/**|loaderConstraints/**|methodHandles/**|redefineClass/**|sharedStrings/**|test-classes/**|MultiProcessSharing.java" kind="src" path="src-test.hotspot.jtreg/runtime/cds/appcds"/>
+	<classpathentry excluding="cacheObject/**|
+	|condy/**|
+	|customLoader/**|
+	|dynamicArchive/**|
+	|javaldr/**|
+	|jcmd/**|
+	|jigsaw/**|
+	|jvmti/**|
+	|loaderConstraints/**|
+	|methodHandles/**|
+	|redefineClass/**|
+	|sharedStrings/**|
+	|test-classes/**|
+	|LambdaWithJavaAgent.java|
+	|MultiProcessSharing.java" kind="src" path="src-test.hotspot.jtreg/runtime/cds/appcds"/>
 	<classpathentry kind="src" path="src-test.hotspot.jtreg/runtime/exceptionMsgs/NullPointerException"/>
 	<classpathentry excluding="test-classes/**" kind="src" path="src-test.hotspot.jtreg/runtime/LoadClass"/>
 	<classpathentry excluding="ClhsdbJhisto.java|LingeredAppWithInterface.java|TestInstanceKlassSizeForInterface.java|jmap-hprof/**|sadebugd/**" kind="src" path="src-test.hotspot.jtreg/serviceability/sa"/>
