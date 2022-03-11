@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="applications/scimark/**|
+	|compiler/allocation/TestAllocArrayAfterAllocNoUse*|
+	|compiler/allocation/TestCCPAllocateArray*|
+	|compiler/allocation/TestFailedAllocationBadGraph*|
 	|compiler/aot/jdk.tools.jaotc.test/**|
 	|compiler/aot/scripts/**|
 	|compiler/arraycopy/ACasLoadsStoresBadMem*|
@@ -10,11 +13,14 @@
 	|compiler/arraycopy/TestEliminatedCloneBadMemEdge*|
 	|compiler/arraycopy/TestInitializingACLoadWithBadMem*|
 	|compiler/arraycopy/TestLoadBypassACWithWrongMem*|
+	|compiler/c1/Test8271202*|
 	|compiler/c1/TestArrayCopyToFromObject*|
+	|compiler/c1/TestC1PhiPlacementPathologyMain*|
 	|compiler/c1/TestCheckIndexC1Intrinsic*|
 	|compiler/c1/TestGotoIfMain*|compiler/c1/TestLinearScanOrder*|
 	|compiler/c1/TestTooManyVirtualRegistersMain*|
-	|compiler/c1/TestUnresolvedFieldMain*|compiler/c1/UnsafeVolatileGuardTest*|
+	|compiler/c1/TestUnresolvedFieldMain*|
+	|compiler/c1/UnsafeVolatileGuardTest*|
 	|compiler/c1/VolatileGuardTest*|
 	|compiler/c2/aarch64/ConvI2LWideningAssertTooStrong.java|
 	|compiler/c2/Test6852078*|
@@ -31,19 +37,23 @@
 	|compiler/eliminateAutobox/TestIdentityWithEliminateBoxInDebugInfo.java|
 	|compiler/escapeAnalysis/TestCopyOfBrokenAntiDependency.java|
 	|compiler/escapeAnalysis/TestEliminateLocksOffCrash.java|
+	|compiler/escapeAnalysis/TestIterativeEA.java|
 	|compiler/escapeAnalysis/TestMissingAntiDependency.java|
 	|compiler/escapeAnalysis/TestValAtSafepointOverflowsInt.java|
 	|compiler/exceptions/TestC1ExceptionHandlersSameBCI*|
+	|compiler/exceptions/TestLateMHInlineExceptions*|
 	|compiler/floatingpoint/TestFMA*|
 	|compiler/gcbarriers/EqvUncastStepOverBarrier.java|
 	|compiler/gcbarriers/TestMembarDependencies.java|
 	|compiler/graalunit/com.oracle.mxtool.junit/**|
 	|compiler/inlining/StringConcatInfiniteLoop.java|
+	|compiler/inlining/ResolvedClassTest.java|
 	|compiler/integerArithmetic/MultiplyByConstantLongMax.java|
 	|compiler/integerArithmetic/MultiplyByIntegerMinHang.java|
 	|compiler/integerArithmetic/TestAssociative.java|
 	|compiler/integerArithmetic/TestNegAnd.java|
 	|compiler/integerArithmetic/TestNegMultiply.java|
+	|compiler/interpreter/VerifyStackWithUnreachableBlock.java|
 	|compiler/intrinsics/TestCheckIndex.java|
 	|compiler/intrinsics/TestReferenceRefersTo.java|
 	|compiler/intrinsics/math/TestPow*|
@@ -63,6 +73,8 @@
 	|compiler/loopopts/TestAddPChainWithDifferentBase.java|
 	|compiler/loopopts/TestBrokenAntiDependenceWithPhi.java|
 	|compiler/loopopts/TestCastFFAtPhi.java|
+	|compiler/loopopts/TestCastIIMakesMainLoopPhiDead.java|
+	|compiler/loopopts/TestCastIIMakesMainLoopPhiDead2.java|
 	|compiler/loopopts/TestDeadCountedLoop.java|
 	|compiler/loopopts/TestDeadPostLoopBecausePredicate.java|
 	|compiler/loopopts/TestIdomAfterLoopUnswitching.java|
@@ -77,6 +89,7 @@
 	|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|
 	|compiler/loopopts/TestMainBodyExecutedOnce.java|
 	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
+	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
 	|compiler/loopopts/TestSplitThruPhiDivMod.java|
 	|compiler/loopopts/TestStoreSunkInInnerLoop.java|
 	|compiler/loopopts/TestSunkCastOnUnreachablePath.java|
@@ -104,6 +117,7 @@
 	|compiler/loopopts/TestStripMinedBackToBackIfs.java|
 	|compiler/loopstripmining/**|
 	|compiler/parsing/**|
+	|compiler/profiling/TestSharedHeadExceptionBackedges*|
 	|compiler/rangechecks/RangeCheckEliminationScaleNotOne.java|
 	|compiler/rangechecks/TestLongRangeCheck.java|
 	|compiler/rangechecks/TestRangeCheckExceptionHandlerLoopMain.java|

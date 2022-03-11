@@ -25,5 +25,10 @@
 			<type>2</type>
 			<locationURI>JDK_SRC/src/jdk.httpserver/share/classes</locationURI>
 		</link>
+		<link>
+			<name>src-jdk.httpserver.windows.classes</name>
+			<type>2</type>
+			<locationURI>JDK_SRC/src/jdk.httpserver/windows/classes</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

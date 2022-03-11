@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src-jdk.jfr.share.classes"/>
+	<classpathentry kind="src" excluding="jdk/jfr/snippet-files/*|jdk/jfr/consumer/snippet-files/*" path="src-jdk.jfr.share.classes"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
