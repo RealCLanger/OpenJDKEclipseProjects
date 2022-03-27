@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-java.util.zip</name>
+	<name>test.lib</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,17 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.util.zip</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/test.lib</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.java.util.zip</name>
+			<name>src-test.lib</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/java/util/zip</locationURI>
-		</link>
-		<link>
-			<name>testng.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+			<locationURI>JDK_SRC/test/lib</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

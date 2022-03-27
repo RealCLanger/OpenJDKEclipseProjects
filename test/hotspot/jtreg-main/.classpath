@@ -38,24 +38,68 @@
 	|compiler/integerArithmetic/MultiplyByIntegerMinHang.java|
 	|compiler/intrinsics/string/TestHasNegatives.java|
 	|compiler/intrinsics/string/TestStringUTF16IntrinsicRangeChecks.java|
-	|compiler/intrinsics/string/TestStringIntrinsicRangeChecks.java|compiler/intrinsics/unsafe/ByteBufferTest.java|
-	|compiler/intrinsics/unsafe/DirectByteBufferTest.java|compiler/intrinsics/unsafe/HeapByteBufferTest.java|
-	|compiler/intrinsics/unsafe/TestCAEAntiDep.java|compiler/jvmci/**|compiler/jsr292/**|
-	|compiler/linkage/TestLinkageErrorInGenerateOopMap.java|compiler/patches/**|compiler/locks/**|compiler/loopopts/CountedLoopPeelingProfilePredicates.java|compiler/loopopts/IterationSplitPredicateInconsistency.java|compiler/loopopts/LoadVectorFromStableArray.java|compiler/loopopts/PeelingZeroTripCount.java|
-	|compiler/loopopts/SplitIfSharedFastLockBehindCastPP.java|compiler/loopopts/StoreMovedBeforeInfiniteLoop.java|compiler/loopopts/TestBadControlLoopLimitCheck.java|compiler/loopopts/TestIdomAfterLoopUnswitching.java|compiler/loopopts/TestInfiniteLoopCCP.java|compiler/loopopts/TestLoopPredicateDep.java|
-	|compiler/loopopts/TestLoopUnswitchingLostCastDependency.java|compiler/loopopts/TestSplitThruPhiDivMod.java|compiler/loopopts/Test8211698.java|compiler/loopopts/TestCMovSplitThruPhi.java|compiler/loopopts/TestCounted*.java|compiler/loopopts/TestDeadCountedLoop.java|compiler/loopopts/TestImpossibleIV.java|
-	|compiler/loopopts/TestInfiniteLoopNotInnerMost.java|compiler/loopopts/TestLimitLoadBelowLoopLimitCheck.java|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|compiler/loopopts/TestRCEAfterUnrolling.java|compiler/loopopts/TestSplitIfPinnedCMove.java|
-	|compiler/loopopts/TestMisalignedUnsafeAccess.java|compiler/loopopts/TestStrangeControl.java|compiler/loopopts/TestStripMinedBackToBackIfs.java|compiler/loopstripmining/**|compiler/parsing/**|compiler/rangechecks/RangeCheckEliminationScaleNotOne.java|compiler/rangechecks/TestRangeCheckExceptionHandlerLoopMain.java|
-	|compiler/regalloc/TestGCMRecalcPressureNodes.java|compiler/regalloc/VolatileLoadMemBarsOnlyUses.java|
-	|compiler/types/TestArrayMeetNotSymmetrical.java|compiler/uncommontrap/FoldedIfNonDomMidIf.java|compiler/uncommontrap/UncommonTrapLeak.java|compiler/unsafe/CASandCAEwithNegExpected.java|
-	|compiler/unsafe/MaybeOffHeapUnsafeAccessToNewObject.java|compiler/unsafe/MismatchedUnsafeLoadFromNewObject.java|compiler/unsafe/TestLoopUnswitching.java|compiler/unsafe/TestMaybeNullUnsafeAccess.java|compiler/unsafe/TestMisalignedUnsafeAccess.java|compiler/unsafe/TestSplitIf.java|
+	|compiler/intrinsics/string/TestStringIntrinsicRangeChecks.java|
+	|compiler/intrinsics/unsafe/ByteBufferTest.java|
+	|compiler/intrinsics/unsafe/DirectByteBufferTest.java|
+	|compiler/intrinsics/unsafe/HeapByteBufferTest.java|
+	|compiler/intrinsics/unsafe/TestCAEAntiDep.java|
+	|compiler/jvmci/**|
+	|compiler/jsr292/**|
+	|compiler/linkage/TestLinkageErrorInGenerateOopMap.java|
+	|compiler/locks/**|
+	|compiler/loopopts/CountedLoopPeelingProfilePredicates.java|
+	|compiler/loopopts/IterationSplitPredicateInconsistency.java|
+	|compiler/loopopts/LoadVectorFromStableArray.java|
+	|compiler/loopopts/LoopRotateBadNodeBudget.java|
+	|compiler/loopopts/LoopUnrollBadNodeBudget.java|
+	|compiler/loopopts/LoopUnswitchingBadNodeBudget.java|
+	|compiler/loopopts/PeelingZeroTripCount.java|
+	|compiler/loopopts/SplitIfSharedFastLockBehindCastPP.java|
+	|compiler/loopopts/StoreMovedBeforeInfiniteLoop.java|
+	|compiler/loopopts/Test8211698.java|
+	|compiler/loopopts/TestBadControlLoopLimitCheck.java|
+	|compiler/loopopts/TestCMovSplitThruPhi.java|
+	|compiler/loopopts/TestCounted*.java|
+	|compiler/loopopts/TestDeadCountedLoop.java|
+	|compiler/loopopts/TestIdomAfterLoopUnswitching.java|
+	|compiler/loopopts/TestImpossibleIV.java|
+	|compiler/loopopts/TestInfiniteLoopCCP.java|
+	|compiler/loopopts/TestInfiniteLoopNotInnerMost.java|
+	|compiler/loopopts/TestLimitLoadBelowLoopLimitCheck.java|
+	|compiler/loopopts/TestLoopPredicateDep.java|
+	|compiler/loopopts/TestLoopUnswitchingLostCastDependency.java|
+	|compiler/loopopts/TestMisalignedUnsafeAccess.java|
+	|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|
+	|compiler/loopopts/TestRCEAfterUnrolling.java|
+	|compiler/loopopts/TestSplitIfPinnedCMove.java|
+	|compiler/loopopts/TestSplitThruPhiDivMod.java|
+	|compiler/loopopts/TestStrangeControl.java|
+	|compiler/loopopts/TestStripMinedBackToBackIfs.java|
+	|compiler/loopstripmining/**|
+	|compiler/parsing/**|
+	|compiler/patches/**|
+	|compiler/rangechecks/RangeCheckEliminationScaleNotOne.java|
+	|compiler/rangechecks/TestRangeCheckExceptionHandlerLoopMain.java|
+	|compiler/regalloc/TestGCMRecalcPressureNodes.java|
+	|compiler/regalloc/VolatileLoadMemBarsOnlyUses.java|
+	|compiler/types/TestArrayMeetNotSymmetrical.java|
+	|compiler/uncommontrap/FoldedIfNonDomMidIf.java|
+	|compiler/uncommontrap/UncommonTrapLeak.java|
+	|compiler/unsafe/CASandCAEwithNegExpected.java|
+	|compiler/unsafe/MaybeOffHeapUnsafeAccessToNewObject.java|
+	|compiler/unsafe/MismatchedUnsafeLoadFromNewObject.java|
+	|compiler/unsafe/TestLoopUnswitching.java|
+	|compiler/unsafe/TestMaybeNullUnsafeAccess.java|
+	|compiler/unsafe/TestMisalignedUnsafeAccess.java|
+	|compiler/unsafe/TestSplitIf.java|
 	|compiler/unsafe/TestUnsafeStaticFieldAccess.java|
 	|compiler/unsafe/UnsafeGetConstantField*|
 	|compiler/unsafe/UnsafeOffHeapBooleanTest.java|
 	|compiler/unsafe/UnsafeOnHeapBooleanTest.java|
 	|compiler/unsafe/UnsafeSmallOffsetBooleanAccessTest.java|
+	|compiler/vectorization/TestUnexpectedLoadOrdering.java|
 	|compiler/vectorization/TestVectorsNotSavedAtSafepoint.java|
-	|compiler/vectorization/TestUnexpectedLoadOrdering.java|gc/**|
+	|gc/**|
 	|gtest/**|
 	|native_sanity/**|
 	|runtime/**|
