@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" excluding="jdk/test/lib/containers/cgroup/MetricsTester.java|jdk/test/lib/containers/cgroup/MetricsTesterCgroupV1.java" path="src-test.lib"/>
+	<classpathentry kind="src" excluding="jdk/test/lib/containers/cgroup/MetricsTester.java|
+	|jdk/test/lib/containers/cgroup/MetricsTesterCgroupV1.java" path="src-test.lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
