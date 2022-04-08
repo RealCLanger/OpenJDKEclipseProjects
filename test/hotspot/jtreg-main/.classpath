@@ -23,11 +23,12 @@
 	|compiler/c1/UnsafeVolatileGuardTest*|
 	|compiler/c1/VolatileGuardTest*|
 	|compiler/c2/aarch64/ConvI2LWideningAssertTooStrong.java|
+	|compiler/c2/SubsumingLoadsCauseFlagSpill*|
 	|compiler/c2/Test6852078*|
 	|compiler/c2/TestCMoveHasTopInput.java|
 	|compiler/c2/TestCondAddDeadBranch.java|
 	|compiler/c2/TestDeadDataLoopIGVN.java|
-	|compiler/c2/SubsumingLoadsCauseFlagSpill*|
+	|compiler/c2/TestModDivTopInput.java|
 	|compiler/c2/TestRenumberLiveNodesInfiniteLoop.java|
 	|compiler/c2/TestReplacedNodesOSR*|
 	|compiler/ciReplay/TestUnresolvedClasses.java|
@@ -57,6 +58,7 @@
 	|compiler/intrinsics/TestCheckIndex.java|
 	|compiler/intrinsics/TestReferenceRefersTo.java|
 	|compiler/intrinsics/math/TestPow*|
+	|compiler/intrinsics/string/TestCountPositives.java|
 	|compiler/intrinsics/string/TestHasNegatives.java|
 	|compiler/intrinsics/string/TestStringUTF16IntrinsicRangeChecks.java|
 	|compiler/intrinsics/string/TestStringIntrinsicRangeChecks.java|
