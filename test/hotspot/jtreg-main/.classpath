@@ -45,6 +45,7 @@
 	|compiler/exceptions/TestLateMHInlineExceptions*|
 	|compiler/floatingpoint/TestFMA*|
 	|compiler/gcbarriers/EqvUncastStepOverBarrier.java|
+	|compiler/gcbarriers/TestAlwaysAtomicAccesses.java|
 	|compiler/gcbarriers/TestMembarDependencies.java|
 	|compiler/graalunit/com.oracle.mxtool.junit/**|
 	|compiler/inlining/StringConcatInfiniteLoop.java|
@@ -73,6 +74,7 @@
 	|compiler/longcountedloops/**|
 	|compiler/locks/**|
 	|compiler/loopopts/TestAddPChainWithDifferentBase.java|
+	|compiler/loopopts/TestBadlyFormedCountedLoop.java|
 	|compiler/loopopts/TestBrokenAntiDependenceWithPhi.java|
 	|compiler/loopopts/TestCastFFAtPhi.java|
 	|compiler/loopopts/TestCastIIMakesMainLoopPhiDead.java|

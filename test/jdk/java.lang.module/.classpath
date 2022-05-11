@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="customfs/**|ModuleReader/**|Packages/**|badclasses/CheckBadModuleInfo.java" kind="src" path="src-test.jdk.java.lang.module"/>
+	<classpathentry excluding="badclasses/CheckBadModuleInfo.java|
+	|customfs/**|
+	|exeNullCallerGetResource*/**|
+	|ModuleReader/**|
+	|Packages/**" kind="src" path="src-test.jdk.java.lang.module"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>

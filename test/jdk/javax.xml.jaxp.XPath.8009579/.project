@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-java.lang.ThreadGroup</name>
+	<name>jdk-javax.xml.jaxp.XPath.8009579</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,17 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.lang.ThreadGroup</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-javax.xml.jaxp.XPath.8009579</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.java.lang.ThreadGroup</name>
+			<name>src-test.jdk.javax.xml.jaxp.XPath.8009579</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/java/lang/ThreadGroup</locationURI>
-		</link>
-		<link>
-			<name>testng.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+			<locationURI>JDK_SRC/test/jdk/javax/xml/jaxp/XPath/8009579</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
