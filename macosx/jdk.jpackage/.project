@@ -35,5 +35,10 @@
 			<type>2</type>
 			<locationURI>JDK_SRC/src/jdk.jpackage/macosx/classes</locationURI>
 		</link>
+		<link>
+			<name>src-jdk.jpackage.unix.classes</name>
+			<type>2</type>
+			<locationURI>JDK_SRC/src/jdk.jpackage/unix/classes</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

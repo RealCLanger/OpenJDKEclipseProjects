@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="module-info.java" kind="src" path="src-jdk.jpackage.share.classes"/>
+	<classpathentry kind="src" path="src-jdk.jpackage.unix.classes"/>
 	<classpathentry kind="src" path="src-jdk.jpackage.macosx.classes"/>
 	<classpathentry kind="src" path="gensrc-jdk.jpackage"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
