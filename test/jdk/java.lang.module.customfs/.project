@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-testlibrary.java.util.jar</name>
+	<name>jdk-java.lang.module.customfs</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,17 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-testlibrary.java.util.jar</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.lang.module.customfs</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.lib.testlibrary.java.util.jar</name>
+			<name>src-test.jdk.java.lang.module.customfs</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/lib/testlibrary/java/util/jar</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/lang/module/customfs</locationURI>
+		</link>
+		<link>
+			<name>testng.jar</name>
+			<type>1</type>
+			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

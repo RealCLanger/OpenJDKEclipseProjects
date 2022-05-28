@@ -12,7 +12,7 @@
 			<attribute name="add-exports" value="jdk.jartool/sun.tools.jar=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk-testlibrary.java.util.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-lib.testlibrary.java.util.jar"/>
 	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

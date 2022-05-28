@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdk-lib.testlibrary</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>output</name>
+			<type>2</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-lib.testlibrary</locationURI>
+		</link>
+		<link>
+			<name>src-test.jdk.lib.testlibrary</name>
+			<type>2</type>
+			<locationURI>JDK_SRC/test/jdk/lib/testlibrary</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
