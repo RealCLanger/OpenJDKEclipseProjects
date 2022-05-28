@@ -4,8 +4,6 @@
 	|compiler/allocation/TestAllocArrayAfterAllocNoUse*|
 	|compiler/allocation/TestCCPAllocateArray*|
 	|compiler/allocation/TestFailedAllocationBadGraph*|
-	|compiler/aot/jdk.tools.jaotc.test/**|
-	|compiler/aot/scripts/**|
 	|compiler/arraycopy/ACasLoadsStoresBadMem*|
 	|compiler/arraycopy/TestCloneAccessStressGCM.java|
 	|compiler/arraycopy/TestACSameSrcDst*|
@@ -17,7 +15,8 @@
 	|compiler/c1/TestArrayCopyToFromObject*|
 	|compiler/c1/TestC1PhiPlacementPathologyMain*|
 	|compiler/c1/TestCheckIndexC1Intrinsic*|
-	|compiler/c1/TestGotoIfMain*|compiler/c1/TestLinearScanOrder*|
+	|compiler/c1/TestGotoIfMain*|
+    |compiler/c1/TestLinearScanOrder*|
 	|compiler/c1/TestTooManyVirtualRegistersMain*|
 	|compiler/c1/TestUnresolvedFieldMain*|
 	|compiler/c1/UnsafeVolatileGuardTest*|
@@ -70,36 +69,8 @@
 	|compiler/jvmci/**|
 	|compiler/jsr292/**|
 	|compiler/linkage/TestLinkageErrorInGenerateOopMap.java|
-	|compiler/patches/**|
-	|compiler/longcountedloops/**|
 	|compiler/locks/**|
-	|compiler/loopopts/TestAddPChainWithDifferentBase.java|
-	|compiler/loopopts/TestBadlyFormedCountedLoop.java|
-	|compiler/loopopts/TestBrokenAntiDependenceWithPhi.java|
-	|compiler/loopopts/TestCastFFAtPhi.java|
-	|compiler/loopopts/TestCastIIMakesMainLoopPhiDead.java|
-	|compiler/loopopts/TestCastIIMakesMainLoopPhiDead2.java|
-	|compiler/loopopts/TestDeadCountedLoop.java|
-	|compiler/loopopts/TestDeadPostLoopBecausePredicate.java|
-	|compiler/loopopts/TestIdomAfterLoopUnswitching.java|
-	|compiler/loopopts/TestIfReplacedByMainLoopExit.java|
-	|compiler/loopopts/TestInfiniteLoopCCP.java|
-	|compiler/loopopts/TestInfiniteLoopNotInnerMost.java|
-	|compiler/loopopts/TestLoadPinnedAfterAllocate.java|
-	|compiler/loopopts/TestLoopEndNodeEliminate.java|
-	|compiler/loopopts/TestLoopPredicateDep.java|
-	|compiler/loopopts/TestLostDependencyOnZeroTripGuard.java|
-	|compiler/loopopts/TestMainNeverExecuted.java|
-	|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|
-	|compiler/loopopts/TestMainBodyExecutedOnce.java|
-	|compiler/loopopts/TestMaxLoopOptsCountReached.java|
-	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
-	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
-	|compiler/loopopts/TestSplitThruPhiDivMod.java|
-	|compiler/loopopts/TestStoreSunkInInnerLoop.java|
-	|compiler/loopopts/TestSunkCastOnUnreachablePath.java|
-	|compiler/loopopts/TestSunkNodeDueToBrokenAntiDependency.java|
-	|compiler/loopopts/TestWrongOffsetConstantArrayConstant.java|
+	|compiler/longcountedloops/**|
 	|compiler/loopopts/CountedLoopPeelingProfilePredicates.java|
 	|compiler/loopopts/IterationSplitPredicateInconsistency.java|
 	|compiler/loopopts/LoadVectorFromStableArray.java|
@@ -110,18 +81,46 @@
 	|compiler/loopopts/SplitIfSharedFastLockBehindCastPP.java|
 	|compiler/loopopts/StoreMovedBeforeInfiniteLoop.java|
 	|compiler/loopopts/Test8211698.java|
+	|compiler/loopopts/TestAddPChainWithDifferentBase.java|
 	|compiler/loopopts/TestBadControlLoopLimitCheck.java|
-	|compiler/loopopts/TestRCEAfterUnrolling.java|
+	|compiler/loopopts/TestBadlyFormedCountedLoop.java|
+	|compiler/loopopts/TestBrokenAntiDependenceWithPhi.java|
+	|compiler/loopopts/TestCastFFAtPhi.java|
+	|compiler/loopopts/TestCastIIMakesMainLoopPhiDead.java|
+	|compiler/loopopts/TestCastIIMakesMainLoopPhiDead2.java|
 	|compiler/loopopts/TestCMovSplitThruPhi.java|
 	|compiler/loopopts/TestCounted*.java|
+	|compiler/loopopts/TestDeadCountedLoop.java|
+	|compiler/loopopts/TestDeadPostLoopBecausePredicate.java|
+	|compiler/loopopts/TestIdomAfterLoopUnswitching.java|
+	|compiler/loopopts/TestIfReplacedByMainLoopExit.java|
 	|compiler/loopopts/TestImpossibleIV.java|
+	|compiler/loopopts/TestInfiniteLoopCCP.java|
+	|compiler/loopopts/TestInfiniteLoopNotInnerMost.java|
 	|compiler/loopopts/TestLimitLoadBelowLoopLimitCheck.java|
+	|compiler/loopopts/TestLoadPinnedAfterAllocate.java|
+	|compiler/loopopts/TestLoopEndNodeEliminate.java|
+	|compiler/loopopts/TestLoopPredicateDep.java|
 	|compiler/loopopts/TestLoopUnswitchingLostCastDependency.java|
+	|compiler/loopopts/TestLostDependencyOnZeroTripGuard.java|
+	|compiler/loopopts/TestMainBodyExecutedOnce.java|
+	|compiler/loopopts/TestMainNeverExecuted.java|
+	|compiler/loopopts/TestMaxLoopOptsCountReached.java|
+	|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|
+	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
+	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
+	|compiler/loopopts/TestRCEAfterUnrolling.java|
 	|compiler/loopopts/TestSplitIfPinnedCMove.java|
+	|compiler/loopopts/TestSplitThruPhiDivMod.java|
+	|compiler/loopopts/TestStoreSunkInInnerLoop.java|
 	|compiler/loopopts/TestStrangeControl.java|
 	|compiler/loopopts/TestStripMinedBackToBackIfs.java|
+	|compiler/loopopts/TestSunkCastOnUnreachablePath.java|
+	|compiler/loopopts/TestSunkNodeDueToBrokenAntiDependency.java|
+	|compiler/loopopts/TestWrongOffsetConstantArrayConstant.java|
 	|compiler/loopstripmining/**|
 	|compiler/parsing/**|
+	|compiler/patches/**|
 	|compiler/profiling/TestSharedHeadExceptionBackedges*|
 	|compiler/rangechecks/RangeCheckEliminationScaleNotOne.java|
 	|compiler/rangechecks/TestLongRangeCheck.java|
@@ -153,7 +152,9 @@
 	|compiler/vectorapi/VectorRebracket128Test.java|
 	|compiler/vectorization/TestUnexpectedLoadOrdering.java|
 	|compiler/vectorization/TestVectorsNotSavedAtSafepoint.java"
-	including="applications/**|compiler/**|gc/testlibrary/**" kind="src" path="src-test.hotspot.jtreg"/>
+	including="applications/**|
+    |compiler/**|
+    |gc/testlibrary/**" kind="src" path="src-test.hotspot.jtreg"/>
 	<classpathentry kind="src" path="src-test.hotspot.jtreg/containers/docker"/>
 	<classpathentry excluding="cacheObject/**|
 	|condy/**|
