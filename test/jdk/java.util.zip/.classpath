@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="GZIP/**|InflaterInputStream/**|ZipEntry/**|ZipFile/**|ZipInputStream/**" kind="src" path="src-test.jdk.java.util.zip"/>
+	<classpathentry excluding="GZIP/**|
+	|InflaterInputStream/**|
+	|ZipEntry/**|
+	|ZipFile/**|
+	|ZipInputStream/**|
+	|ZipOutputStream/**" kind="src" path="src-test.jdk.java.util.zip"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
