@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="BasicProc.java|Renewal.java|ReplayCacheTestProc.java|principalProperty/**|tools/**" kind="src" path="src-test.jdk.sun.security.krb5.auto"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/sun.security.util=ALL-UNNAMED:java.base/jdk.internal.misc=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.logging">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.security.jgss">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.security.jgss/sun.security.jgss=ALL-UNNAMED:java.security.jgss/sun.security.jgss.krb5=ALL-UNNAMED:java.security.jgss/sun.security.jgss.krb5.internal=ALL-UNNAMED:java.security.jgss/sun.security.krb5=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.ccache=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.crypto=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.ktab=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.rcache=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.security.sasl">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.httpserver">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.security.auth">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.security.jgss">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-lib.testlibrary"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
