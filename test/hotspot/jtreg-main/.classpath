@@ -92,6 +92,7 @@
 	|compiler/loopopts/TestMainNeverExecuted.java|
 	|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|
 	|compiler/loopopts/TestMainBodyExecutedOnce.java|
+	|compiler/loopopts/TestMaxLoopOptsCountReached.java|
 	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
 	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
 	|compiler/loopopts/TestSplitThruPhiDivMod.java|
