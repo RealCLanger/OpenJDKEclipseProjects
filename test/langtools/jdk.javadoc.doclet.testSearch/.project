@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-lib.testlibrary.java.util.jar</name>
+	<name>langtools-jdk.javadoc.doclet.testSearch</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-lib.testlibrary.java.util.jar</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/langtools-jdk.javadoc.doclet.testSearch</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.lib.testlibrary.java.util.jar</name>
+			<name>src-test.langtools.jdk.javadoc.doclet.testSearch</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/lib/testlibrary/java/util/jar</locationURI>
+			<locationURI>JDK_SRC/test/langtools/jdk/javadoc/doclet/testSearch</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

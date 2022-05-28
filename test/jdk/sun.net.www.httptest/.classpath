@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src-jdk.incubator.foreign.share.classes"/>
+	<classpathentry kind="src" path="src-test.jdk.sun.net.www.httptest"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/sun.net.www=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="output"/>

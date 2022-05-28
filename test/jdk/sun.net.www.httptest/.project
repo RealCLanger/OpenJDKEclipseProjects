@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk.incubator.foreign</name>
+	<name>jdk-sun.net.www.httptest</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.incubator.foreign</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-sun.net.www.httptest</locationURI>
 		</link>
 		<link>
-			<name>src-jdk.incubator.foreign.share.classes</name>
+			<name>src-test.jdk.sun.net.www.httptest</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/src/jdk.incubator.foreign/share/classes</locationURI>
+			<locationURI>JDK_SRC/test/jdk/sun/net/www/httptest</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

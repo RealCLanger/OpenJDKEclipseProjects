@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="Asynchronous*/**|
+	|Channels/**|
+	|DatagramChannel/**|
+	|etc/**|
+	|FileChannel/**|
+	|FileLock/**|
+	|Pipe/**|
+	|SelectionKey/**|
+	|Selector/**|
+	|ServerSocketChannel/**|
+	|SocketChannel/**|
+	|spi/**|
+	|unixdomain/**|
+	|vthread/**" kind="src" path="src-test.jdk.java.nio.channels"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/sun.nio.fs=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.net">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
