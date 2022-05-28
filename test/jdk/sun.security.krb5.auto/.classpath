@@ -15,7 +15,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.security.jgss">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.security.jgss/sun.security.jgss=ALL-UNNAMED:java.security.jgss/sun.security.krb5=ALL-UNNAMED:java.security.jgss/sun.security.jgss.krb5=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.ccache=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.crypto=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.ktab=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.rcache=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.security.jgss/sun.security.jgss=ALL-UNNAMED:java.security.jgss/sun.security.jgss.krb5=ALL-UNNAMED:java.security.jgss/sun.security.jgss.krb5.internal=ALL-UNNAMED:java.security.jgss/sun.security.krb5=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.ccache=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.crypto=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.ktab=ALL-UNNAMED:java.security.jgss/sun.security.krb5.internal.rcache=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.security.sasl">
@@ -38,6 +38,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-test.lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

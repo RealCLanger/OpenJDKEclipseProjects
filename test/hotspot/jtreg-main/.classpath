@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="applications/scimark/**|
+	|compiler/allocation/**|
 	|compiler/aot/jdk.tools.jaotc.test/**|
 	|compiler/aot/scripts/**|
 	|compiler/arraycopy/TestCloneAccessStressGCM.java|
@@ -22,6 +23,7 @@
 	|compiler/c2/aarch64/ConvI2LWideningAssertTooStrong.java|
 	|compiler/c2/SubsumingLoadsCauseFlagSpill*|
 	|compiler/c2/Test6852078*|
+	|compiler/c2/TestModDivTopInput.java|
 	|compiler/c2/TestRenumberLiveNodesInfiniteLoop.java|
 	|compiler/c2/TestReplacedNodesOSR*|
 	|compiler/conversions/**|
@@ -36,6 +38,7 @@
 	|compiler/inlining/StringConcatInfiniteLoop.java|
 	|compiler/integerArithmetic/MultiplyByConstantLongMax.java|
 	|compiler/integerArithmetic/MultiplyByIntegerMinHang.java|
+	|compiler/interpreter/VerifyStackWithUnreachableBlock.java|
 	|compiler/intrinsics/string/TestHasNegatives.java|
 	|compiler/intrinsics/string/TestStringUTF16IntrinsicRangeChecks.java|
 	|compiler/intrinsics/string/TestStringIntrinsicRangeChecks.java|
@@ -61,6 +64,7 @@
 	|compiler/loopopts/TestCMovSplitThruPhi.java|
 	|compiler/loopopts/TestCounted*.java|
 	|compiler/loopopts/TestDeadCountedLoop.java|
+	|compiler/loopopts/TestDeadPostLoopBecausePredicate.java|
 	|compiler/loopopts/TestIdomAfterLoopUnswitching.java|
 	|compiler/loopopts/TestImpossibleIV.java|
 	|compiler/loopopts/TestInfiniteLoopCCP.java|
@@ -70,6 +74,8 @@
 	|compiler/loopopts/TestLoopUnswitchingLostCastDependency.java|
 	|compiler/loopopts/TestMisalignedUnsafeAccess.java|
 	|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|
+	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
+	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
 	|compiler/loopopts/TestRCEAfterUnrolling.java|
 	|compiler/loopopts/TestSplitIfPinnedCMove.java|
 	|compiler/loopopts/TestSplitThruPhiDivMod.java|
@@ -112,7 +118,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.misc=ALL-UNNAMED:java.base/jdk.internal.vm.annotation=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED:java.base/sun.nio.cs=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.misc=ALL-UNNAMED:java.base/jdk.internal.platform=ALL-UNNAMED:java.base/jdk.internal.vm.annotation=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED:java.base/sun.nio.cs=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.management">
