@@ -26,6 +26,11 @@
 			<locationURI>JDK_SRC/test/jdk/java/util/zip/ZipFile</locationURI>
 		</link>
 		<link>
+			<name>junit.jar</name>
+			<type>1</type>
+			<locationURI>JTREG_PATH/lib/junit.jar</locationURI>
+		</link>
+		<link>
 			<name>testng.jar</name>
 			<type>1</type>
 			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>

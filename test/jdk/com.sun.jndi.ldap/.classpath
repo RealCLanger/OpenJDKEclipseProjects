@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="blits/AddTests/**|LdapCtx/**|LdapName/**|lib/**" kind="src" path="src-test.jdk.com.sun.jndi.ldap"/>
+	<classpathentry excluding="objects/**|
+	|blits/AddTests/**|
+	|LdapCtx/**|
+	|LdapName/**|
+	|lib/**" kind="src" path="src-test.jdk.com.sun.jndi.ldap"/>
 	<classpathentry excluding="LDAPTestUtils.java" kind="src" path="src-test.jdk.com.sun.jndi.ldap.lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>

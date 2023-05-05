@@ -4,7 +4,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.misc=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.access=ALL-UNNAMED:java.base/jdk.internal.misc=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.management">
@@ -37,14 +37,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.internal.vm.ci">
 		<attributes>
 			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management.jfr">
-		<attributes>
-			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.internal.vm.ci/jdk.vm.ci.meta=ALL-UNNAMED:jdk.internal.vm.ci/jdk.vm.ci.runtime=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jartool">
@@ -57,6 +53,16 @@
 		<attributes>
 			<attribute name="module" value="true"/>
 			<attribute name="add-exports" value="jdk.jfr/jdk.jfr=ALL-UNNAMED:jdk.jfr/jdk.jfr.internal=ALL-UNNAMED:jdk.jfr/jdk.jfr.internal.test=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management.jfr">
+		<attributes>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/hotspot-jtreg-main"/>

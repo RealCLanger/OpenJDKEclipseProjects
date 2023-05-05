@@ -19,6 +19,7 @@
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-java.nio.channels"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="lib" path="junit.jar"/>
 	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

@@ -26,9 +26,9 @@
 			<locationURI>JDK_SRC/test/jdk/java/lang/ThreadGroup</locationURI>
 		</link>
 		<link>
-			<name>testng.jar</name>
+			<name>junit.jar</name>
 			<type>1</type>
-			<locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+			<locationURI>JTREG_PATH/lib/junit.jar</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

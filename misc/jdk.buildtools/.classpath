@@ -2,10 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="src-make.jdk.src.classes"/>
 	<classpathentry kind="src" path="buildtools-interim_tzdb_classes"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-20">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.jdeps/com.sun.tools.jdeps=ALL-UNNAMED:java.base/sun.security.util=ALL-UNNAMED:java.base/sun.text=ALL-UNNAMED:java.desktop/sun.awt=ALL-UNNAMED:java.base/sun.util=ALL-UNNAMED:java.base/jdk.internal.module=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/sun.security.util=ALL-UNNAMED:java.base/sun.text=ALL-UNNAMED:java.desktop/sun.awt=ALL-UNNAMED:java.base/sun.util=ALL-UNNAMED:java.base/jdk.internal.module=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED:jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED:jdk.jdeps/com.sun.tools.jdeps=ALL-UNNAMED"/>
 			<attribute name="limit-modules" value="java.se,jdk.accessibility,jdk.httpserver,jdk.incubator.httpclient,jdk.jartool,jdk.javadoc,jdk.jconsole,jdk.jshell,jdk.jsobject,jdk.net,jdk.scripting.nashorn,jdk.sctp,jdk.security.auth,jdk.security.jgss,jdk.unsupported,jdk.xml.dom,jdk.jdeps"/>
 		</attributes>
 	</classpathentry>

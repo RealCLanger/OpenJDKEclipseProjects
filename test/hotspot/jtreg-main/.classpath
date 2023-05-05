@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="applications/scimark/**|
+	|compiler/allocation/TestNewArrayBadSize*|
+	|compiler/allocation/TestNewArrayOutsideLoopValidLengthTestInLoop*|
 	|compiler/allocation/TestAllocArrayAfterAllocNoUse*|
 	|compiler/allocation/TestCCPAllocateArray*|
 	|compiler/allocation/TestFailedAllocationBadGraph*|
 	|compiler/arraycopy/ACasLoadsStoresBadMem*|
 	|compiler/arraycopy/TestCloneAccessStressGCM.java|
 	|compiler/arraycopy/TestACSameSrcDst*|
+	|compiler/arraycopy/TestArrayCopyPartialInliningLoadSplit*|
 	|compiler/arraycopy/TestArrayCopyUNCBadMem*|
 	|compiler/arraycopy/TestEliminatedCloneBadMemEdge*|
 	|compiler/arraycopy/TestInitializingACLoadWithBadMem*|
 	|compiler/arraycopy/TestLoadBypassACWithWrongMem*|
+	|compiler/arraycopy/TestTightlyCoupledAllocationAssert*|
+	|compiler/c1/KlassAccessCheckTest*|
 	|compiler/c1/Test8271202*|
 	|compiler/c1/TestArrayCopyToFromObject*|
+	|compiler/c1/TestBadStateAtLongCmp*|
 	|compiler/c1/TestC1PhiPlacementPathologyMain*|
 	|compiler/c1/TestCheckIndexC1Intrinsic*|
 	|compiler/c1/TestGotoIfMain*|
@@ -27,12 +33,18 @@
 	|compiler/c2/TestCMoveHasTopInput.java|
 	|compiler/c2/TestCondAddDeadBranch.java|
 	|compiler/c2/TestDeadDataLoopIGVN.java|
+	|compiler/c2/TestDuplicateSimpleLoopBackedge.java|
 	|compiler/c2/TestModDivTopInput.java|
 	|compiler/c2/TestRenumberLiveNodesInfiniteLoop.java|
 	|compiler/c2/TestReplacedNodesOSR*|
+	|compiler/c2/TestUnsignedCompareIntoEqualityNotCanonical*|
 	|compiler/ciReplay/TestUnresolvedClasses.java|
+	|compiler/ciReplay/TestInvalidReplayFile.java|
+	|compiler/ciTypeFlow/TestSharedLoopHead.java|
 	|compiler/conversions/**|
 	|compiler/codecache/CodeCacheFullCountTest.java|
+	|compiler/ccp/TestInfiniteIGVNAfterCCP.java|
+	|compiler/ccp/TestRemoveUnreachableCCP.java|
 	|compiler/dependencies/MonomorphicObjectCall/**|
 	|compiler/eliminateAutobox/TestIdentityWithEliminateBoxInDebugInfo.java|
 	|compiler/escapeAnalysis/TestCopyOfBrokenAntiDependency.java|
@@ -164,6 +176,7 @@
 	|jcmd/**|
 	|jigsaw/**|
 	|jvmti/**|
+	|lambdaForm/**|
 	|loaderConstraints/**|
 	|methodHandles/**|
 	|redefineClass/**|
@@ -225,7 +238,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.hotspot.agent">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.hotspot.agent/sun.jvm.hotspot=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.debugger=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.gc.g1=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.memory=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.oops=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.ui.classbrowser=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.utilities=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="jdk.hotspot.agent/sun.jvm.hotspot=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.debugger=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.gc.g1=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.memory=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.oops=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.types=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.types.basic=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.ui.classbrowser=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.utilities=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.incubator.vector">
