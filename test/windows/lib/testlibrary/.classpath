@@ -6,7 +6,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.platform=ALL-UNNAMED:java.base/sun.security.pkcs=ALL-UNNAMED:java.base/sun.security.util=ALL-UNNAMED:java.base/sun.security.x509=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.platform=ALL-UNNAMED:java.base/sun.invoke.util=ALL-UNNAMED:java.base/sun.security.pkcs=ALL-UNNAMED:java.base/sun.security.tools.keytool=ALL-UNNAMED:java.base/sun.security.util=ALL-UNNAMED:java.base/sun.security.x509=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.management">

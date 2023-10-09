@@ -4,15 +4,18 @@
 	|compiler/allocation/**|
 	|compiler/aot/jdk.tools.jaotc.test/**|
 	|compiler/aot/scripts/**|
-	|compiler/arraycopy/TestCloneAccessStressGCM.java|
 	|compiler/arraycopy/ACasLoadsStoresBadMem*|
 	|compiler/arraycopy/TestACSameSrcDst*|
 	|compiler/arraycopy/TestArrayCopyUNCBadMem*|
+	|compiler/arraycopy/TestArrayCopyIntrinsicWithUCT.java|
+	|compiler/arraycopy/TestCloneAccessStressGCM.java|
 	|compiler/arraycopy/TestEliminatedCloneBadMemEdge*|
 	|compiler/arraycopy/TestInitializingACLoadWithBadMem*|
 	|compiler/arraycopy/TestLoadBypassACWithWrongMem*|
+	|compiler/c1/KlassAccessCheckTest*|
 	|compiler/c1/Test8271202*|
 	|compiler/c1/TestArrayCopyToFromObject*|
+	|compiler/c1/TestBadStateAtLongCmp*|
 	|compiler/c1/TestC1PhiPlacementPathologyMain*|
 	|compiler/c1/TestGotoIfMain*|
 	|compiler/c1/TestLinearScanOrder*|
@@ -21,13 +24,19 @@
 	|compiler/c1/UnsafeVolatileGuardTest*|
 	|compiler/c1/VolatileGuardTest*|
 	|compiler/c2/aarch64/ConvI2LWideningAssertTooStrong.java|
+	|compiler/c2/aarch64/TestIntrinsicsRegStress.java|
+	|compiler/c2/irTests/TestDebugInfo.java|
 	|compiler/c2/SubsumingLoadsCauseFlagSpill*|
 	|compiler/c2/Test6852078*|
 	|compiler/c2/TestModDivTopInput.java|
+	|compiler/c2/TestNegativeStringBuilderCapacity.java|
 	|compiler/c2/TestRenumberLiveNodesInfiniteLoop.java|
 	|compiler/c2/TestReplacedNodesOSR*|
+	|compiler/c2/TestUnsignedCompareIntoEqualityNotCanonical*|
+	|compiler/ccp/**|
 	|compiler/conversions/**|
 	|compiler/dependencies/MonomorphicObjectCall/**|
+	|compiler/escapeAnalysis/TestBrokenEA*|
 	|compiler/escapeAnalysis/TestCopyOfBrokenAntiDependency*|
 	|compiler/escapeAnalysis/TestValAtSafepointOverflowsInt*|
 	|compiler/exceptions/TestC1ExceptionHandlersSameBCI*|
@@ -61,6 +70,7 @@
 	|compiler/loopopts/StoreMovedBeforeInfiniteLoop.java|
 	|compiler/loopopts/Test8211698.java|
 	|compiler/loopopts/TestBadControlLoopLimitCheck.java|
+	|compiler/loopopts/TestBadNodeBudgetAfterBackport.java|
 	|compiler/loopopts/TestCMovSplitThruPhi.java|
 	|compiler/loopopts/TestCounted*.java|
 	|compiler/loopopts/TestDeadCountedLoop.java|
@@ -72,6 +82,7 @@
 	|compiler/loopopts/TestLimitLoadBelowLoopLimitCheck.java|
 	|compiler/loopopts/TestLoopPredicateDep.java|
 	|compiler/loopopts/TestLoopUnswitchingLostCastDependency.java|
+	|compiler/loopopts/TestMaxLoopOptsCountReached.java|
 	|compiler/loopopts/TestMisalignedUnsafeAccess.java|
 	|compiler/loopopts/TestNestedIrreducibleLoopsMain.java|
 	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
@@ -81,6 +92,7 @@
 	|compiler/loopopts/TestSplitThruPhiDivMod.java|
 	|compiler/loopopts/TestStrangeControl.java|
 	|compiler/loopopts/TestStripMinedBackToBackIfs.java|
+	|compiler/loopopts/TestWrongCMovSplitIf.java|
 	|compiler/loopstripmining/**|
 	|compiler/parsing/**|
 	|compiler/patches/**|
@@ -88,12 +100,15 @@
 	|compiler/rangechecks/TestRangeCheckExceptionHandlerLoopMain.java|
 	|compiler/regalloc/TestGCMRecalcPressureNodes.java|
 	|compiler/regalloc/VolatileLoadMemBarsOnlyUses.java|
+	|compiler/stringopts/TestSideEffectBeforeConstructor.java|
 	|compiler/types/TestArrayMeetNotSymmetrical.java|
 	|compiler/uncommontrap/FoldedIfNonDomMidIf.java|
 	|compiler/uncommontrap/UncommonTrapLeak.java|
 	|compiler/unsafe/CASandCAEwithNegExpected.java|
 	|compiler/unsafe/MaybeOffHeapUnsafeAccessToNewObject.java|
 	|compiler/unsafe/MismatchedUnsafeLoadFromNewObject.java|
+	|compiler/unsafe/NonVolatileMemoryAccessWithLongOffset.java|
+	|compiler/unsafe/TestBadBaseAddress.java|
 	|compiler/unsafe/TestLoopUnswitching.java|
 	|compiler/unsafe/TestMaybeNullUnsafeAccess.java|
 	|compiler/unsafe/TestMisalignedUnsafeAccess.java|
