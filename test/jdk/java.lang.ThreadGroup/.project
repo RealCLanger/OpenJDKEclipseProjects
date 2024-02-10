@@ -28,7 +28,7 @@
 		<link>
 			<name>junit.jar</name>
 			<type>1</type>
-			<locationURI>JTREG_PATH/lib/junit.jar</locationURI>
+			<locationURI>JTREG_PATH/lib/junit-platform-console-standalone-1.9.2.jar</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

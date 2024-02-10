@@ -52,7 +52,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jfr">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.jfr/jdk.jfr=ALL-UNNAMED:jdk.jfr/jdk.jfr.internal=ALL-UNNAMED:jdk.jfr/jdk.jfr.internal.test=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="jdk.jfr/jdk.jfr=ALL-UNNAMED:jdk.jfr/jdk.jfr.events=ALL-UNNAMED:jdk.jfr/jdk.jfr.internal=ALL-UNNAMED:jdk.jfr/jdk.jfr.internal.test=ALL-UNNAMED:jdk.jfr/jdk.jfr.internal.util=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.management">
@@ -67,6 +67,7 @@
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/hotspot-jtreg-main"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="lib" path="junit.jar"/>
     <classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>
