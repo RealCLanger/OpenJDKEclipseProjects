@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="6550798/**" kind="src" path="src-test.jdk.sun.net.www.protocol.http"/>
+	<classpathentry kind="src" path="src-test.jdk.sun.net.www.http.HttpClient"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/com.sun.security.ntlm=ALL-UNNAMED:java.base/sun.net.www=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/sun.net.www=ALL-UNNAMED:java.base/sun.net.www.http=ALL-UNNAMED:java.base/sun.net.www.protocol.http=ALL-UNNAMED:java.base/sun.security.tools.keytool=ALL-UNNAMED:java.base/sun.security.x509=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.logging">
+		<attributes>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.httpserver">
@@ -12,8 +17,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk-lib.testlibrary"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
-	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>
