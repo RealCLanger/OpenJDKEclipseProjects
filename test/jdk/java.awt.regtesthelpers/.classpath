@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="4530474/**|4765271/**|8231286/**|ColorValue/**" kind="src" path="src-test.jdk.javax.swing.text.html.CSS"/>
+	<classpathentry excluding="Abstract*|Sysout.java|Util*|process/**" kind="src" path="src-test.jdk.java.awt.regtesthelpers"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -9,9 +9,8 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.desktop">
 		<attributes>
 			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.desktop/sun.awt=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/jdk-java.awt.regtesthelpers"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>
