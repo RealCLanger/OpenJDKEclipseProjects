@@ -39,8 +39,10 @@
 	|compiler/c2/TestCondAddDeadBranch.java|
 	|compiler/c2/TestDeadDataLoopIGVN.java|
 	|compiler/c2/TestDuplicateSimpleLoopBackedge.java|
+	|compiler/c2/TestFoldIfRemovesTopNode.java|
 	|compiler/c2/TestInfiniteLoopCompilationFailure.java|
 	|compiler/c2/TestLargeTreeOfSubNodes.java|
+	|compiler/c2/TestLWLockingCodeGen.java|
 	|compiler/c2/TestModDivTopInput.java|
 	|compiler/c2/TestRenumberLiveNodesInfiniteLoop.java|
 	|compiler/c2/TestReplacedNodesOSR*|
@@ -55,6 +57,7 @@
 	|compiler/ccp/TestInfiniteIGVNAfterCCP.java|
 	|compiler/ccp/TestRemoveUnreachableCCP.java|
 	|compiler/codecache/CodeCacheFullCountTest.java|
+	|compiler/codegen/TestConvertImplicitNullCheck.java|
 	|compiler/compilercontrol/jcmd/ClearDirectivesFileStackTest.java|
 	|compiler/controldependency/TestAddPChainMismatchedBase.java|
 	|compiler/controldependency/TestAddPChainMismatchedBase2.java|
@@ -160,11 +163,13 @@
 	|compiler/loopopts/TestOnlyInfiniteLoopsMain.java|
 	|compiler/loopopts/TestOpaqueZeroTripGuardPostLoopRemoval.java|
 	|compiler/loopopts/TestOverUnrolling2.java|
+	|compiler/loopopts/TestPartialPeelingAtSingleInputRegion.java|
 	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
 	|compiler/loopopts/TestPhaseCFGNeverBranchToGotoMain.java|
 	|compiler/loopopts/TestPhiInSkeletonPredicateExpression.java|
 	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
 	|compiler/loopopts/TestRCEAfterUnrolling.java|
+	|compiler/loopopts/TestRemixAddressExpressionsWithIrreducibleLoop.java|
 	|compiler/loopopts/TestSinkingMoreThan2AddPNodes.java|
 	|compiler/loopopts/TestSinkingNodesCausesLongCompilation.java|
 	|compiler/loopopts/TestSplitIfPinnedCMove.java|
@@ -178,6 +183,7 @@
 	|compiler/loopopts/TestSunkNodeMissingCastAssert.java|
 	|compiler/loopopts/TestUndetectedLoopInInfiniteLoop.java|
 	|compiler/loopopts/TestUnsupportedConditionalMove.java|
+	|compiler/loopopts/TestUnswitchOverunrolling.java|
 	|compiler/loopopts/TestWrongCMovSplitIf.java|
 	|compiler/loopopts/TestWrongOffsetConstantArrayConstant.java|
 	|compiler/loopopts/TestZeroTripGuardShared.java|
@@ -185,10 +191,18 @@
 	|compiler/loopstripmining/**|
 	|compiler/parsing/**|
 	|compiler/patches/**|
+	|compiler/predicates/TestCountedLoopMinJintStride.java|
+	|compiler/print/TestPrintInliningLateVirtualCall.java|
 	|compiler/profiling/TestSharedHeadExceptionBackedges*|
 	|compiler/rangechecks/RangeCheckEliminationScaleNotOne.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterPartialPeeling.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterSinking.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterSplitIf.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterUnswitching.java|
 	|compiler/rangechecks/TestArrayAccessAboveRCAfterSmearingOrPredication.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCForArrayCopyLoad.java|
 	|compiler/rangechecks/TestArrayAccessCastIIAboveRC.java|
+	|compiler/rangechecks/TestLargeScaleInLongRCOverflow.java|
 	|compiler/rangechecks/TestLongRangeCheck.java|
 	|compiler/rangechecks/TestLongRCWithLoopIncr.java|
 	|compiler/rangechecks/TestRangeCheckExceptionHandlerLoopMain.java|
@@ -209,6 +223,7 @@
 	|compiler/types/TestSubTypeCheckMacroTrichotomy.java|
 	|compiler/types/TestSubTypeCheckMacroNodeWrongMem.java|
 	|compiler/types/TestSubTypeCheckNewObjectNotConstant.java|
+	|compiler/types/TestSubTypeCheckWithBottomArray.java|
 	|compiler/types/TestSubTypeOfAsbtractClassWrongResult.java|
 	|compiler/uncommontrap/FoldedIfNonDomMidIf.java|
 	|compiler/uncommontrap/UncommonTrapLeak.java|
