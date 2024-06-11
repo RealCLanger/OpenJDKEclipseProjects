@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk.sapmachine</name>
+	<name>jdk.sapext</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,17 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.sapmachine</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk.sapext</locationURI>
 		</link>
 		<link>
-			<name>src-jdk.sapmachine.share.classes</name>
+			<name>src-jdk.sapext.share.classes</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/src/jdk.sapmachine/share/classes</locationURI>
+			<locationURI>JDK_SRC/src/jdk.sapext/share/classes</locationURI>
+		</link>
+		<link>
+			<name>src-jdk.sapext.windows.classes</name>
+			<type>2</type>
+			<locationURI>JDK_SRC/src/jdk.sapext/windows/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

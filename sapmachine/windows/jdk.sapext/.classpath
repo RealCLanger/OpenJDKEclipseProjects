@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src-jdk.sapmachine.share.classes"/>
+	<classpathentry kind="src" path="src-jdk.sapext.share.classes"/>
+	<classpathentry kind="src" path="src-jdk.sapext.windows.classes"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
