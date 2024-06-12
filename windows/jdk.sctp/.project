@@ -25,10 +25,5 @@
 			<type>2</type>
 			<locationURI>JDK_SRC/src/jdk.sctp/share/classes</locationURI>
 		</link>
-		<link>
-			<name>src-jdk.sctp.windows.classes</name>
-			<type>2</type>
-			<locationURI>JDK_SRC/src/jdk.sctp/windows/classes</locationURI>
-		</link>
 	</linkedResources>
 </projectDescription>

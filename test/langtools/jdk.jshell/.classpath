@@ -35,7 +35,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.internal.le">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.internal.le/jdk.internal.org.jline.reader=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.reader.impl=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.terminal=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.terminal.impl=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.terminal.spi=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="jdk.internal.le/jdk.internal.org.jline.reader=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.reader.impl=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.terminal=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.terminal.impl=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.terminal.impl.exec=ALL-UNNAMED:jdk.internal.le/jdk.internal.org.jline.terminal.spi=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jdi">
