@@ -25,5 +25,10 @@
 			<type>2</type>
 			<locationURI>JDK_SRC/src/jdk.net/share/classes</locationURI>
 		</link>
+		<link>
+			<name>src-jdk.net.windows.classes</name>
+			<type>2</type>
+			<locationURI>JDK_SRC/src/jdk.net/windows/classes</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
