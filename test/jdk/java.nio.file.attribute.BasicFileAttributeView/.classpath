@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-java.nio.file"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

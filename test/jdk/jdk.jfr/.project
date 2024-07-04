@@ -28,7 +28,7 @@
         <link>
             <name>testng.jar</name>
             <type>1</type>
-            <locationURI>JTREG_PATH/lib/testng.jar</locationURI>
+            <locationURI>JTREG_PATH/lib/testng-7.3.0.jar</locationURI>
         </link>
 	</linkedResources>
 </projectDescription>
