@@ -65,6 +65,7 @@
 	|compiler/conversions/**|
 	|compiler/dependencies/MonomorphicObjectCall/**|
 	|compiler/eliminateAutobox/TestIdentityWithEliminateBoxInDebugInfo.java|
+	|compiler/escapeAnalysis/Test8331033.java|
 	|compiler/escapeAnalysis/TestBrokenEA.java|
 	|compiler/escapeAnalysis/TestCopyOfBrokenAntiDependency.java|
 	|compiler/escapeAnalysis/TestEliminateLocksOffCrash.java|
@@ -113,6 +114,8 @@
 	|compiler/locks/**|
 	|compiler/longcountedloops/**|
 	|compiler/loopopts/CountedLoopPeelingProfilePredicates.java|
+	|compiler/loopopts/InvariantCodeMotionReassociateAddSub.java|
+	|compiler/loopopts/InvariantCodeMotionReassociateCmp.java|
 	|compiler/loopopts/IterationSplitPredicateInconsistency.java|
 	|compiler/loopopts/LoadVectorFromStableArray.java|
 	|compiler/loopopts/LoopRotateBadNodeBudget.java|
@@ -191,6 +194,7 @@
 	|compiler/loopstripmining/**|
 	|compiler/parsing/**|
 	|compiler/patches/**|
+	|compiler/predicates/TestAssertionPredicateDoesntConstantFold.java|
 	|compiler/predicates/TestCountedLoopMinJintStride.java|
 	|compiler/print/TestPrintInliningLateVirtualCall.java|
 	|compiler/profiling/TestSharedHeadExceptionBackedges*|
@@ -210,6 +214,8 @@
 	|compiler/regalloc/TestGCMRecalcPressureNodes.java|
 	|compiler/regalloc/VolatileLoadMemBarsOnlyUses.java|
 	|compiler/splitif/TestCrashAtIGVNSplitIfSubType.java|
+	|compiler/splitif/TestLongCountedLoopConvL2I.java|
+	|compiler/splitif/TestLongCountedLoopConvL2I2.java|
 	|compiler/stringopts/TestSideEffectBeforeConstructor.java|
 	|compiler/types/TestArrayManyDimensions.java|
 	|compiler/types/TestArrayMeetNotSymmetrical.java|
@@ -251,7 +257,8 @@
     |compiler/**|
     |gc/testlibrary/**" kind="src" path="src-test.hotspot.jtreg"/>
 	<classpathentry kind="src" path="src-test.hotspot.jtreg/containers/docker"/>
-	<classpathentry excluding="cacheObject/**|
+	<classpathentry excluding="applications/**|
+	|cacheObject/**|
 	|condy/**|
 	|customLoader/**|
 	|dynamicArchive/**|
@@ -263,6 +270,7 @@
 	|loaderConstraints/**|
 	|methodHandles/**|
 	|redefineClass/**|
+	|resolvedConstants/**|
 	|sharedStrings/**|
 	|test-classes/**|
 	|LambdaWithJavaAgent.java|
@@ -322,7 +330,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.hotspot.agent">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.hotspot.agent/sun.jvm.hotspot=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.debugger=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.gc.g1=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.memory=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.oops=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.types=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.types.basic=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.ui.classbrowser=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.utilities=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="jdk.hotspot.agent/sun.jvm.hotspot=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.code=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.debugger=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.gc.g1=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.memory=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.oops=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.types=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.types.basic=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.ui.classbrowser=ALL-UNNAMED:jdk.hotspot.agent/sun.jvm.hotspot.utilities=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.incubator.vector">

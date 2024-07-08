@@ -13,6 +13,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-sun.security.pkcs11"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-java.security.testlibrary"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>
