@@ -25,6 +25,8 @@
 	|compiler/c1/VolatileGuardTest*|
 	|compiler/c2/aarch64/ConvI2LWideningAssertTooStrong.java|
 	|compiler/c2/aarch64/TestIntrinsicsRegStress.java|
+	|compiler/c2/cr6663848/**|
+	|compiler/c2/cr6663854/**|
 	|compiler/c2/irTests/TestDebugInfo.java|
 	|compiler/c2/SubsumingLoadsCauseFlagSpill*|
 	|compiler/c2/Test6852078*|
@@ -88,6 +90,7 @@
 	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
 	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
 	|compiler/loopopts/TestRCEAfterUnrolling.java|
+	|compiler/loopopts/TestRemixAddressExpressionsWithIrreducibleLoop.java|
 	|compiler/loopopts/TestSplitIfPinnedCMove.java|
 	|compiler/loopopts/TestSplitThruPhiDivMod.java|
 	|compiler/loopopts/TestStrangeControl.java|
