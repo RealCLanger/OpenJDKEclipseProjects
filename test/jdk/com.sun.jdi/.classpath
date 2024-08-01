@@ -4,7 +4,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.vm=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.vm=ALL-UNNAMED:java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.desktop">
