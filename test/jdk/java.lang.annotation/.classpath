@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="AnnotationType*/**|
+	|AnnotationVerifier.java|
+	|ExceptionalToString*/**|
+	|Missing*/**|
+	|package-info.java|
+	|repeating*/**|
+	|typeAnnotations/**" kind="src" path="src-test.jdk.java.lang.annotation"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED:java.base/sun.reflect.annotation=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.compiler">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
