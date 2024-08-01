@@ -33,6 +33,10 @@
 	|compiler/c1/UnsafeVolatileGuardTest*|
 	|compiler/c1/VolatileGuardTest*|
 	|compiler/c2/aarch64/ConvI2LWideningAssertTooStrong.java|
+	|compiler/c2/aarch64/TestIntrinsicsRegStress*|
+	|compiler/c2/cr6663848/**|
+	|compiler/c2/cr6663854/**|
+	|compiler/c2/irTests/TestGetAndAdd*|
 	|compiler/c2/SubsumingLoadsCauseFlagSpill*|
 	|compiler/c2/Test6852078*|
 	|compiler/c2/TestCMoveHasTopInput.java|
@@ -47,8 +51,6 @@
 	|compiler/c2/TestTopCastIIOnUndetectedDeadPath*|
 	|compiler/c2/TestUninitializedKlassField.java|
 	|compiler/c2/TestUnsignedCompareIntoEqualityNotCanonical*|
-	|compiler/c2/aarch64/TestIntrinsicsRegStress*|
-	|compiler/c2/irTests/TestGetAndAdd*|
 	|compiler/ciReplay/TestUnresolvedClasses.java|
 	|compiler/ciReplay/TestInvalidReplayFile.java|
 	|compiler/ciTypeFlow/TestSharedLoopHead.java|
