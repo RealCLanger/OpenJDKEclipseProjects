@@ -44,6 +44,7 @@
 	|compiler/c2/TestDeadDataLoopIGVN.java|
 	|compiler/c2/TestDuplicateSimpleLoopBackedge.java|
 	|compiler/c2/TestInfiniteLoopCompilationFailure.java|
+	|compiler/c2/TestFoldIfRemovesTopNode.java|
 	|compiler/c2/TestLargeTreeOfSubNodes.java|
 	|compiler/c2/TestModDivTopInput.java|
 	|compiler/c2/TestRenumberLiveNodesInfiniteLoop.java|
@@ -162,11 +163,13 @@
 	|compiler/loopopts/TestOnlyInfiniteLoopsMain.java|
 	|compiler/loopopts/TestOpaqueZeroTripGuardPostLoopRemoval.java|
 	|compiler/loopopts/TestOverUnrolling2.java|
+	|compiler/loopopts/TestPartialPeelingAtSingleInputRegion.java|
 	|compiler/loopopts/TestPeelingNeverEnteredLoop.java|
 	|compiler/loopopts/TestPhaseCFGNeverBranchToGotoMain.java|
 	|compiler/loopopts/TestPhiInSkeletonPredicateExpression.java|
 	|compiler/loopopts/TestPredicateInputBelowLoopPredicate.java|
 	|compiler/loopopts/TestRCEAfterUnrolling.java|
+	|compiler/loopopts/TestRemixAddressExpressionsWithIrreducibleLoop.java|
 	|compiler/loopopts/TestSinkingMoreThan2AddPNodes.java|
 	|compiler/loopopts/TestSinkingNodesCausesLongCompilation.java|
 	|compiler/loopopts/TestSplitIfPinnedCMove.java|
@@ -187,10 +190,18 @@
 	|compiler/loopstripmining/**|
 	|compiler/parsing/**|
 	|compiler/patches/**|
+	|compiler/predicates/TestAssertionPredicateDoesntConstantFold.java|
+	|compiler/predicates/TestCountedLoopMinJintStride.java|
 	|compiler/profiling/TestSharedHeadExceptionBackedges*|
 	|compiler/rangechecks/RangeCheckEliminationScaleNotOne.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterPartialPeeling.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterSinking.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterSplitIf.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCAfterUnswitching.java|
 	|compiler/rangechecks/TestArrayAccessAboveRCAfterSmearingOrPredication.java|
+	|compiler/rangechecks/TestArrayAccessAboveRCForArrayCopyLoad.java|
 	|compiler/rangechecks/TestArrayAccessCastIIAboveRC.java|
+	|compiler/rangechecks/TestLargeScaleInLongRCOverflow.java|
 	|compiler/rangechecks/TestLongRangeCheck.java|
 	|compiler/rangechecks/TestLongRCWithLoopIncr.java|
 	|compiler/rangechecks/TestRangeCheckExceptionHandlerLoopMain.java|
@@ -198,6 +209,8 @@
 	|compiler/regalloc/TestGCMRecalcPressureNodes.java|
 	|compiler/regalloc/VolatileLoadMemBarsOnlyUses.java|
 	|compiler/splitif/TestCrashAtIGVNSplitIfSubType.java|
+	|compiler/splitif/TestLongCountedLoopConvL2I.java|
+	|compiler/splitif/TestLongCountedLoopConvL2I2.java|
 	|compiler/stringopts/TestSideEffectBeforeConstructor.java|
 	|compiler/types/TestArrayManyDimensions.java|
 	|compiler/types/TestArrayMeetNotSymmetrical.java|

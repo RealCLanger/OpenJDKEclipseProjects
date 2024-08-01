@@ -8,6 +8,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-lib.testlibrary.java.util.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
 	<classpathentry kind="lib" path="junit.jar"/>
 	<classpathentry kind="lib" path="testng.jar"/>
 	<classpathentry kind="output" path="output"/>

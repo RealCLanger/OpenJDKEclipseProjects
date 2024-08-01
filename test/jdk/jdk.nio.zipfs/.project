@@ -33,7 +33,7 @@
 		<link>
 			<name>junit.jar</name>
 			<type>1</type>
-			<locationURI>JTREG_PATH/lib/junit-platform-console-standalone-1.10.2.jar</locationURI>
+			<locationURI>JTREG_PATH/lib/junit-platform-console-standalone-1.9.2.jar</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>

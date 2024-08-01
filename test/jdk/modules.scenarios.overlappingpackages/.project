@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-java.util.Formatter</name>
+	<name>jdk-modules.scenarios.overlappingpackages</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,17 +18,12 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.util.Formatter</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-modules.scenarios.overlappingpackages</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.java.util.Formatter</name>
+			<name>src-test.jdk.modules.scenarios.overlappingpackages</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/java/util/Formatter</locationURI>
-		</link>
-		<link>
-			<name>junit.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/junit-platform-console-standalone-1.9.2.jar</locationURI>
+			<locationURI>JDK_SRC/test/jdk/jdk/modules/scenarios/overlappingpackages</locationURI>
 		</link>
 		<link>
 			<name>testng.jar</name>
