@@ -26,11 +26,6 @@
 			<locationURI>JDK_SRC/test/jdk/java/lang/ProcessBuilder</locationURI>
 		</link>
 		<link>
-			<name>junit.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/junit-platform-console-standalone-1.10.2.jar</locationURI>
-		</link>
-		<link>
 			<name>testng.jar</name>
 			<type>1</type>
 			<locationURI>JTREG_PATH/lib/testng-7.3.0.jar</locationURI>

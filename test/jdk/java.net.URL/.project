@@ -25,10 +25,5 @@
 			<type>2</type>
 			<locationURI>JDK_SRC/test/jdk/java/net/URL</locationURI>
 		</link>
-		<link>
-			<name>junit.jar</name>
-			<type>1</type>
-			<locationURI>JTREG_PATH/lib/junit-platform-console-standalone-1.10.2.jar</locationURI>
-		</link>
 	</linkedResources>
 </projectDescription>

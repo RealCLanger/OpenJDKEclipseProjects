@@ -4,6 +4,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.util=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.desktop">
@@ -19,7 +20,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jpackage">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="jdk.jpackage/jdk.jpackage.internal=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="jdk.jpackage/jdk.jpackage.internal=ALL-UNNAMED:jdk.jpackage/jdk.jpackage.internal.util=ALL-UNNAMED:jdk.jpackage/jdk.jpackage.internal.util.function=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="output"/>

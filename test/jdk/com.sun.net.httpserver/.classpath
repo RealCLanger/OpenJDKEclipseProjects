@@ -26,7 +26,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-java.net.httpclient.lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk-lib.testlibrary"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
-	<classpathentry kind="lib" path="junit.jar"/>
 	<classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>

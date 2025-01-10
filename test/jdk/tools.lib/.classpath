@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src-test.jdk.tools.lib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.jimage=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.compiler">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jlink">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.jlink/jdk.tools.jimage=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="output"/>
+</classpath>

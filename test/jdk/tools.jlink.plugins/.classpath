@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="SystemModuleDescriptors/**|StripNativeDebugSymbolsPlugin/**" kind="src" path="src-test.jdk.tools.jlink.plugins"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jlink">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.jlink/jdk.tools.jlink.internal=ALL-UNNAMED:jdk.jlink/jdk.tools.jlink.plugin=ALL-UNNAMED:jdk.jlink/jdk.tools.jlink.internal.plugins=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.unsupported">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-tools.lib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+    <classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>

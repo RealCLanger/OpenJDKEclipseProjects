@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="arraystructs/**|
+	|callarranger/**|
+	|capturecallstate/**|
+	|channels/**|
+	|critical/**|
+	|dontrelease/**|
+	|enablenativeaccess/**|
+	|handles/**|
+	|largestub/**|
+	|loaderLookup/**|
+	|nested/**|
+	|normalize/**|
+	|passheapsegment/**|
+	|stackwalk/**|
+	|upcalldeopt/**|
+	|virtual/**|
+	|TestNoForeignUnsafeOverride.java" kind="src" path="src-test.jdk.java.foreign"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.foreign=ALL-UNNAMED:java.base/jdk.internal.foreign.abi.fallback=ALL-UNNAMED:java.base/jdk.internal.javac=ALL-UNNAMED:java.base/jdk.internal.misc=ALL-UNNAMED:java.base/jdk.internal.ref=ALL-UNNAMED:java.base/jdk.internal.reflect=ALL-UNNAMED:java.base/sun.nio.ch=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+	<classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>

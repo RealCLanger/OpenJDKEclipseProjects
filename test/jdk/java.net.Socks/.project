@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk-sun.net.www.httptest</name>
+	<name>jdk-java.net.Socks</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,12 +18,17 @@
 		<link>
 			<name>output</name>
 			<type>2</type>
-			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-sun.net.www.httptest</locationURI>
+			<locationURI>$%7BWORKSPACE_LOC%7D/output/jdk-java.net.Socks</locationURI>
 		</link>
 		<link>
-			<name>src-test.jdk.sun.net.www.httptest</name>
+			<name>src-test.jdk.java.net.Socks</name>
 			<type>2</type>
-			<locationURI>JDK_SRC/test/jdk/sun/net/www/httptest</locationURI>
+			<locationURI>JDK_SRC/test/jdk/java/net/Socks</locationURI>
+		</link>
+		<link>
+			<name>testng.jar</name>
+			<type>1</type>
+			<locationURI>JTREG_PATH/lib/testng-7.3.0.jar</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

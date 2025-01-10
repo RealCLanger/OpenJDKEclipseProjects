@@ -4,7 +4,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
-			<attribute name="add-exports" value="java.base/jdk.internal.vm.annotation=ALL-UNNAMED"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.util=ALL-UNNAMED:java.base/jdk.internal.vm.annotation=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jdk.httpserver">
@@ -13,7 +13,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
-	<classpathentry kind="lib" path="junit.jar"/>
 	<classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="output"/>
 </classpath>
