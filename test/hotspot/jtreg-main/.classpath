@@ -48,6 +48,7 @@
 	|compiler/c2/TestFoldIfRemovesTopNode.java|
 	|compiler/c2/TestInfiniteLoopCompilationFailure.java|
 	|compiler/c2/TestLargeTreeOfSubNodes.java|
+	|compiler/c2/TestLoadSplitThruPhiNull.java|
 	|compiler/c2/TestLWLockingCodeGen.java|
 	|compiler/c2/TestModDivTopInput.java|
 	|compiler/c2/TestRenumberLiveNodesInfiniteLoop.java|
@@ -105,6 +106,8 @@
 	|compiler/interpreter/VerifyStackWithUnreachableBlock.java|
 	|compiler/intrinsics/SortingDeoptimizationTest.java|
 	|compiler/intrinsics/TestCheckIndex.java|
+	|compiler/intrinsics/TestArrayGuardWithInterfaces.java|
+	|compiler/intrinsics/TestContinuationPinningAndEA.java|
 	|compiler/intrinsics/TestReferenceRefersTo.java|
 	|compiler/intrinsics/float16/**|
 	|compiler/intrinsics/math/TestPow*|
@@ -165,6 +168,7 @@
 	|compiler/loopopts/TestLongCountedLoopInInfiniteLoop.java|
 	|compiler/loopopts/TestLoopEndNodeEliminate.java|
 	|compiler/loopopts/TestLoopPredicateDep.java|
+	|compiler/loopopts/TestLoopPredicationDivZeroCheck.java|
 	|compiler/loopopts/TestLoopUnswitchingLostCastDependency.java|
 	|compiler/loopopts/TestLostDependencyOnZeroTripGuard.java|
 	|compiler/loopopts/TestMainBodyExecutedOnce.java|
@@ -299,6 +303,7 @@
 	|resolvedConstants/**|
 	|sharedStrings/**|
 	|test-classes/**|
+	|CreateAOTCacheVerifyError.java|
 	|LambdaWithJavaAgent.java|
 	|MultiProcessSharing.java|
 	|TransformInterfaceOfLambda.java" kind="src" path="src-test.hotspot.jtreg/runtime/cds/appcds"/>
@@ -306,6 +311,7 @@
 	<classpathentry excluding="test-classes/**" kind="src" path="src-test.hotspot.jtreg/runtime/LoadClass"/>
 	<classpathentry excluding="ClhsdbJhisto.java|LingeredAppWithInterface.java|TestInstanceKlassSizeForInterface.java|jmap-hprof/**|sadebugd/**" kind="src" path="src-test.hotspot.jtreg/serviceability/sa"/>
 	<classpathentry including="LambdaEagerInitTest.java" kind="src" path="src-test.hotspot.jtreg/runtime/cds/appcds/test-classes"/>
+	<classpathentry kind="src" path="src-test.hotspot.jtreg/testlibrary/asm"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
 		<attributes>
 			<attribute name="module" value="true"/>
