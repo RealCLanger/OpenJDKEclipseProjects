@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="basic/**|bindservices/**|dedup/**|multireleasejar/**|optimplugin/**|runtimeImage/**|plugins/**" kind="src" path="src-test.jdk.tools.jlink"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java.base">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="java.base/jdk.internal.util=ALL-UNNAMED:java.base/sun.security.tools.keytool=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jartool">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.jartool/sun.security.tools.jarsigner=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk.jlink">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-exports" value="jdk.jlink/jdk.tools.jlink.builder=ALL-UNNAMED:jdk.jlink/jdk.tools.jlink.internal=ALL-UNNAMED:jdk.jlink/jdk.tools.jlink.plugin=ALL-UNNAMED"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/jdk-tools.lib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test.lib"/>
+    <classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
